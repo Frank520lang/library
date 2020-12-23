@@ -1,0 +1,793 @@
+[2020-11-27 09:32:42.363+0800] [main] INFO  c.example.library.LibraryApplication [55]- Starting LibraryApplication using Java 1.8.0_241 on DESKTOP-F8LLN01 with PID 10776 (E:\codes\eclipse_new\library\target\classes started by 愈 in E:\codes\eclipse_new\library)
+[2020-11-27 09:32:42.380+0800] [main] INFO  c.example.library.LibraryApplication [660]- No active profile set, falling back to default profiles: default
+[2020-11-27 09:32:44.582+0800] [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer [108]- Tomcat initialized with port(s): 8081 (http)
+[2020-11-27 09:32:44.596+0800] [main] INFO  o.a.coyote.http11.Http11NioProtocol [173]- Initializing ProtocolHandler ["http-nio-8081"]
+[2020-11-27 09:32:44.597+0800] [main] INFO  o.a.catalina.core.StandardService [173]- Starting service [Tomcat]
+[2020-11-27 09:32:44.599+0800] [main] INFO  o.a.catalina.core.StandardEngine [173]- Starting Servlet engine: [Apache Tomcat/9.0.39]
+[2020-11-27 09:32:44.778+0800] [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] [173]- Initializing Spring embedded WebApplicationContext
+[2020-11-27 09:32:44.781+0800] [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext [289]- Root WebApplicationContext: initialization completed in 2301 ms
+[2020-11-27 09:32:45.927+0800] [main] INFO  o.s.s.c.ThreadPoolTaskExecutor [181]- Initializing ExecutorService 'applicationTaskExecutor'
+[2020-11-27 09:32:46.211+0800] [main] INFO  o.s.s.c.ThreadPoolTaskScheduler [181]- Initializing ExecutorService 'taskScheduler'
+[2020-11-27 09:32:46.245+0800] [main] INFO  o.a.coyote.http11.Http11NioProtocol [173]- Starting ProtocolHandler ["http-nio-8081"]
+[2020-11-27 09:32:46.284+0800] [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer [220]- Tomcat started on port(s): 8081 (http) with context path ''
+[2020-11-27 09:32:46.300+0800] [main] INFO  c.example.library.LibraryApplication [61]- Started LibraryApplication in 4.624 seconds (JVM running for 5.289)
+[2020-11-27 09:32:47.379+0800] [scheduling-1] INFO  com.zaxxer.hikari.HikariDataSource [110]- HikariPool-1 - Starting...
+[2020-11-27 09:32:47.656+0800] [scheduling-1] INFO  com.zaxxer.hikari.HikariDataSource [123]- HikariPool-1 - Start completed.
+[2020-11-27 09:32:47.682+0800] [scheduling-1] INFO  c.e.library.service.ScheduledTask [29]- 2020-11-27T09:32:47.682清理僵尸账户0个
+[2020-11-27 09:34:14.594+0800] [http-nio-8081-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] [173]- Initializing Spring DispatcherServlet 'dispatcherServlet'
+[2020-11-27 09:34:14.595+0800] [http-nio-8081-exec-1] INFO  o.s.web.servlet.DispatcherServlet [525]- Initializing Servlet 'dispatcherServlet'
+[2020-11-27 09:34:14.597+0800] [http-nio-8081-exec-1] INFO  o.s.web.servlet.DispatcherServlet [547]- Completed initialization in 2 ms
+[2020-11-27 09:34:33.053+0800] [http-nio-8081-exec-3] ERROR c.e.l.controller.UserController [80]- callback get login error,com.example.library.beans.User@54021349
+[2020-11-27 09:34:44.964+0800] [http-nio-8081-exec-4] ERROR c.e.l.controller.UserController [80]- callback get login error,com.example.library.beans.User@61879729
+[2020-11-27 09:35:01.911+0800] [http-nio-8081-exec-5] ERROR c.e.l.controller.UserController [80]- callback get login error,com.example.library.beans.User@41fad2c4
+[2020-11-27 09:35:13.013+0800] [http-nio-8081-exec-6] ERROR c.e.l.controller.UserController [80]- callback get login error,com.example.library.beans.User@1f1e2faf
+[2020-11-27 09:35:36.523+0800] [http-nio-8081-exec-7] ERROR c.e.l.controller.UserController [80]- callback get login error,com.example.library.beans.User@17f5a428
+[2020-11-27 09:35:46.331+0800] [http-nio-8081-exec-8] ERROR c.e.l.controller.UserController [80]- callback get login error,com.example.library.beans.User@6170fe97
+[2020-11-27 09:38:14.622+0800] [main] INFO  c.example.library.LibraryApplication [55]- Starting LibraryApplication using Java 1.8.0_241 on DESKTOP-F8LLN01 with PID 4584 (E:\codes\eclipse_new\library\target\classes started by 愈 in E:\codes\eclipse_new\library)
+[2020-11-27 09:38:14.627+0800] [main] INFO  c.example.library.LibraryApplication [660]- No active profile set, falling back to default profiles: default
+[2020-11-27 09:38:16.386+0800] [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer [108]- Tomcat initialized with port(s): 8081 (http)
+[2020-11-27 09:38:16.397+0800] [main] INFO  o.a.coyote.http11.Http11NioProtocol [173]- Initializing ProtocolHandler ["http-nio-8081"]
+[2020-11-27 09:38:16.398+0800] [main] INFO  o.a.catalina.core.StandardService [173]- Starting service [Tomcat]
+[2020-11-27 09:38:16.399+0800] [main] INFO  o.a.catalina.core.StandardEngine [173]- Starting Servlet engine: [Apache Tomcat/9.0.39]
+[2020-11-27 09:38:16.486+0800] [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] [173]- Initializing Spring embedded WebApplicationContext
+[2020-11-27 09:38:16.487+0800] [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext [289]- Root WebApplicationContext: initialization completed in 1759 ms
+[2020-11-27 09:38:17.508+0800] [main] INFO  o.s.s.c.ThreadPoolTaskExecutor [181]- Initializing ExecutorService 'applicationTaskExecutor'
+[2020-11-27 09:38:17.788+0800] [main] INFO  o.s.s.c.ThreadPoolTaskScheduler [181]- Initializing ExecutorService 'taskScheduler'
+[2020-11-27 09:38:17.825+0800] [main] INFO  o.a.coyote.http11.Http11NioProtocol [173]- Starting ProtocolHandler ["http-nio-8081"]
+[2020-11-27 09:38:17.858+0800] [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer [220]- Tomcat started on port(s): 8081 (http) with context path ''
+[2020-11-27 09:38:17.880+0800] [main] INFO  c.example.library.LibraryApplication [61]- Started LibraryApplication in 3.953 seconds (JVM running for 4.692)
+[2020-11-27 09:38:18.995+0800] [scheduling-1] INFO  com.zaxxer.hikari.HikariDataSource [110]- HikariPool-1 - Starting...
+[2020-11-27 09:38:19.267+0800] [scheduling-1] INFO  com.zaxxer.hikari.HikariDataSource [123]- HikariPool-1 - Start completed.
+[2020-11-27 09:38:19.289+0800] [scheduling-1] INFO  c.e.library.service.ScheduledTask [29]- 2020-11-27T09:38:19.289清理僵尸账户0个
+[2020-11-27 09:41:26.231+0800] [http-nio-8081-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] [173]- Initializing Spring DispatcherServlet 'dispatcherServlet'
+[2020-11-27 09:41:26.232+0800] [http-nio-8081-exec-1] INFO  o.s.web.servlet.DispatcherServlet [525]- Initializing Servlet 'dispatcherServlet'
+[2020-11-27 09:41:26.234+0800] [http-nio-8081-exec-1] INFO  o.s.web.servlet.DispatcherServlet [547]- Completed initialization in 2 ms
+[2020-11-27 09:41:28.994+0800] [http-nio-8081-exec-1] INFO  c.e.library.service.MailService [40]- 邮件已经发送。
+[2020-11-27 09:41:55.952+0800] [http-nio-8081-exec-7] ERROR c.e.l.controller.UserController [82]- callback get login error,com.example.library.beans.User@615cef19
+[2020-11-27 09:43:29.374+0800] [http-nio-8081-exec-10] ERROR c.e.l.controller.UserController [82]- callback get login error,com.example.library.beans.User@1166395e
+[2020-11-27 09:45:57.922+0800] [http-nio-8081-exec-7] ERROR c.e.l.controller.UserController [82]- callback get login error,com.example.library.beans.User@2678158
+[2020-11-27 09:46:09.607+0800] [http-nio-8081-exec-8] ERROR c.e.l.controller.UserController [82]- callback get login error,com.example.library.beans.User@407a7829
+[2020-11-27 09:48:41.913+0800] [http-nio-8081-exec-4] INFO  c.e.library.service.MailService [40]- 邮件已经发送。
+[2020-11-27 09:57:04.847+0800] [http-nio-8081-exec-2] INFO  c.e.library.service.MailService [40]- 邮件已经发送。
+[2020-11-27 10:29:11.875+0800] [main] INFO  c.example.library.LibraryApplication [55]- Starting LibraryApplication using Java 1.8.0_241 on DESKTOP-F8LLN01 with PID 8328 (E:\codes\eclipse_new\library\target\classes started by 愈 in E:\codes\eclipse_new\library)
+[2020-11-27 10:29:11.880+0800] [main] INFO  c.example.library.LibraryApplication [660]- No active profile set, falling back to default profiles: default
+[2020-11-27 10:29:14.881+0800] [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer [108]- Tomcat initialized with port(s): 8081 (http)
+[2020-11-27 10:29:14.920+0800] [main] INFO  o.a.coyote.http11.Http11NioProtocol [173]- Initializing ProtocolHandler ["http-nio-8081"]
+[2020-11-27 10:29:14.922+0800] [main] INFO  o.a.catalina.core.StandardService [173]- Starting service [Tomcat]
+[2020-11-27 10:29:14.925+0800] [main] INFO  o.a.catalina.core.StandardEngine [173]- Starting Servlet engine: [Apache Tomcat/9.0.39]
+[2020-11-27 10:29:15.153+0800] [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] [173]- Initializing Spring embedded WebApplicationContext
+[2020-11-27 10:29:15.154+0800] [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext [289]- Root WebApplicationContext: initialization completed in 3099 ms
+[2020-11-27 10:29:17.545+0800] [main] INFO  o.s.s.c.ThreadPoolTaskExecutor [181]- Initializing ExecutorService 'applicationTaskExecutor'
+[2020-11-27 10:29:18.164+0800] [main] INFO  o.s.s.c.ThreadPoolTaskScheduler [181]- Initializing ExecutorService 'taskScheduler'
+[2020-11-27 10:29:18.244+0800] [main] INFO  o.a.coyote.http11.Http11NioProtocol [173]- Starting ProtocolHandler ["http-nio-8081"]
+[2020-11-27 10:29:18.371+0800] [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer [220]- Tomcat started on port(s): 8081 (http) with context path ''
+[2020-11-27 10:29:18.409+0800] [main] INFO  c.example.library.LibraryApplication [61]- Started LibraryApplication in 7.973 seconds (JVM running for 9.053)
+[2020-11-27 10:29:19.507+0800] [scheduling-1] INFO  com.zaxxer.hikari.HikariDataSource [110]- HikariPool-1 - Starting...
+[2020-11-27 10:29:19.859+0800] [scheduling-1] INFO  com.zaxxer.hikari.HikariDataSource [123]- HikariPool-1 - Start completed.
+[2020-11-27 10:29:19.882+0800] [scheduling-1] INFO  c.e.library.service.ScheduledTask [29]- 2020-11-27T10:29:19.882清理僵尸账户0个
+[2020-11-27 10:31:11.967+0800] [http-nio-8081-exec-3] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] [173]- Initializing Spring DispatcherServlet 'dispatcherServlet'
+[2020-11-27 10:31:11.968+0800] [http-nio-8081-exec-3] INFO  o.s.web.servlet.DispatcherServlet [525]- Initializing Servlet 'dispatcherServlet'
+[2020-11-27 10:31:11.970+0800] [http-nio-8081-exec-3] INFO  o.s.web.servlet.DispatcherServlet [547]- Completed initialization in 2 ms
+[2020-11-27 10:31:47.293+0800] [http-nio-8081-exec-5] INFO  c.e.library.service.MailService [40]- 邮件已经发送。
+[2020-11-27 10:32:15.172+0800] [http-nio-8081-exec-8] ERROR o.a.c.c.C.[.[.[.[dispatcherServlet] [175]- Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is com.alibaba.fastjson.JSONException: parseInt error, field : page] with root cause
+com.alibaba.fastjson.JSONException: can not cast to int, value : {}
+	at com.alibaba.fastjson.util.TypeUtils.castToInt(TypeUtils.java:829)
+	at com.alibaba.fastjson.serializer.IntegerCodec.deserialze(IntegerCodec.java:90)
+	at com.alibaba.fastjson.parser.deserializer.DefaultFieldDeserializer.parseField(DefaultFieldDeserializer.java:85)
+	at com.alibaba.fastjson.parser.deserializer.JavaBeanDeserializer.parseField(JavaBeanDeserializer.java:1224)
+	at com.alibaba.fastjson.parser.deserializer.JavaBeanDeserializer.deserialze(JavaBeanDeserializer.java:850)
+	at com.alibaba.fastjson.parser.deserializer.JavaBeanDeserializer.parseRest(JavaBeanDeserializer.java:1519)
+	at com.alibaba.fastjson.parser.deserializer.FastjsonASMDeserializer_2_HistoryQueryWithPage.deserialze(Unknown Source)
+	at com.alibaba.fastjson.parser.deserializer.JavaBeanDeserializer.deserialze(JavaBeanDeserializer.java:284)
+	at com.alibaba.fastjson.parser.DefaultJSONParser.parseObject(DefaultJSONParser.java:689)
+	at com.alibaba.fastjson.JSON.parseObject(JSON.java:369)
+	at com.alibaba.fastjson.JSON.parseObject(JSON.java:273)
+	at com.alibaba.fastjson.JSON.parseObject(JSON.java:546)
+	at com.example.library.controller.BorrowBooksController.getAllBook(BorrowBooksController.java:72)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:197)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:141)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:106)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:893)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:807)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1061)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:961)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:909)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:652)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:733)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:143)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:374)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1590)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+[2020-11-27 10:32:17.619+0800] [http-nio-8081-exec-10] ERROR o.a.c.c.C.[.[.[.[dispatcherServlet] [175]- Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is com.alibaba.fastjson.JSONException: parseInt error, field : page] with root cause
+com.alibaba.fastjson.JSONException: can not cast to int, value : {}
+	at com.alibaba.fastjson.util.TypeUtils.castToInt(TypeUtils.java:829)
+	at com.alibaba.fastjson.serializer.IntegerCodec.deserialze(IntegerCodec.java:90)
+	at com.alibaba.fastjson.parser.deserializer.DefaultFieldDeserializer.parseField(DefaultFieldDeserializer.java:85)
+	at com.alibaba.fastjson.parser.deserializer.JavaBeanDeserializer.parseField(JavaBeanDeserializer.java:1224)
+	at com.alibaba.fastjson.parser.deserializer.JavaBeanDeserializer.deserialze(JavaBeanDeserializer.java:850)
+	at com.alibaba.fastjson.parser.deserializer.JavaBeanDeserializer.parseRest(JavaBeanDeserializer.java:1519)
+	at com.alibaba.fastjson.parser.deserializer.FastjsonASMDeserializer_2_HistoryQueryWithPage.deserialze(Unknown Source)
+	at com.alibaba.fastjson.parser.deserializer.JavaBeanDeserializer.deserialze(JavaBeanDeserializer.java:284)
+	at com.alibaba.fastjson.parser.DefaultJSONParser.parseObject(DefaultJSONParser.java:689)
+	at com.alibaba.fastjson.JSON.parseObject(JSON.java:369)
+	at com.alibaba.fastjson.JSON.parseObject(JSON.java:273)
+	at com.alibaba.fastjson.JSON.parseObject(JSON.java:546)
+	at com.example.library.controller.BorrowBooksController.getAllBook(BorrowBooksController.java:72)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:197)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:141)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:106)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:893)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:807)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1061)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:961)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:909)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:652)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:733)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:143)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:374)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1590)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+[2020-11-27 10:33:45.876+0800] [http-nio-8081-exec-5] ERROR c.e.l.controller.UserController [86]- callback get login error,com.example.library.beans.User@11ec6f8c
+[2020-11-27 10:35:25.854+0800] [main] INFO  c.example.library.LibraryApplication [55]- Starting LibraryApplication using Java 1.8.0_241 on DESKTOP-F8LLN01 with PID 7196 (E:\codes\eclipse_new\library\target\classes started by 愈 in E:\codes\eclipse_new\library)
+[2020-11-27 10:35:25.858+0800] [main] INFO  c.example.library.LibraryApplication [660]- No active profile set, falling back to default profiles: default
+[2020-11-27 10:35:27.708+0800] [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer [108]- Tomcat initialized with port(s): 8081 (http)
+[2020-11-27 10:35:27.719+0800] [main] INFO  o.a.coyote.http11.Http11NioProtocol [173]- Initializing ProtocolHandler ["http-nio-8081"]
+[2020-11-27 10:35:27.720+0800] [main] INFO  o.a.catalina.core.StandardService [173]- Starting service [Tomcat]
+[2020-11-27 10:35:27.721+0800] [main] INFO  o.a.catalina.core.StandardEngine [173]- Starting Servlet engine: [Apache Tomcat/9.0.39]
+[2020-11-27 10:35:27.804+0800] [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] [173]- Initializing Spring embedded WebApplicationContext
+[2020-11-27 10:35:27.804+0800] [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext [289]- Root WebApplicationContext: initialization completed in 1853 ms
+[2020-11-27 10:35:28.871+0800] [main] INFO  o.s.s.c.ThreadPoolTaskExecutor [181]- Initializing ExecutorService 'applicationTaskExecutor'
+[2020-11-27 10:35:29.131+0800] [main] INFO  o.s.s.c.ThreadPoolTaskScheduler [181]- Initializing ExecutorService 'taskScheduler'
+[2020-11-27 10:35:29.163+0800] [main] INFO  o.a.coyote.http11.Http11NioProtocol [173]- Starting ProtocolHandler ["http-nio-8081"]
+[2020-11-27 10:35:29.199+0800] [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer [220]- Tomcat started on port(s): 8081 (http) with context path ''
+[2020-11-27 10:35:29.217+0800] [main] INFO  c.example.library.LibraryApplication [61]- Started LibraryApplication in 4.033 seconds (JVM running for 4.734)
+[2020-11-27 10:35:29.892+0800] [http-nio-8081-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] [173]- Initializing Spring DispatcherServlet 'dispatcherServlet'
+[2020-11-27 10:35:29.893+0800] [http-nio-8081-exec-1] INFO  o.s.web.servlet.DispatcherServlet [525]- Initializing Servlet 'dispatcherServlet'
+[2020-11-27 10:35:29.895+0800] [http-nio-8081-exec-1] INFO  o.s.web.servlet.DispatcherServlet [547]- Completed initialization in 1 ms
+[2020-11-27 10:35:30.099+0800] [http-nio-8081-exec-1] INFO  com.zaxxer.hikari.HikariDataSource [110]- HikariPool-1 - Starting...
+[2020-11-27 10:35:30.373+0800] [http-nio-8081-exec-1] INFO  com.zaxxer.hikari.HikariDataSource [123]- HikariPool-1 - Start completed.
+[2020-11-27 10:35:30.405+0800] [scheduling-1] INFO  c.e.library.service.ScheduledTask [29]- 2020-11-27T10:35:30.404清理僵尸账户0个
+[2020-11-27 10:35:44.699+0800] [http-nio-8081-exec-5] ERROR o.a.c.c.C.[.[.[.[dispatcherServlet] [175]- Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is com.alibaba.fastjson.JSONException: parseInt error, field : page] with root cause
+com.alibaba.fastjson.JSONException: can not cast to int, value : {"page":5}
+	at com.alibaba.fastjson.util.TypeUtils.castToInt(TypeUtils.java:829)
+	at com.alibaba.fastjson.serializer.IntegerCodec.deserialze(IntegerCodec.java:90)
+	at com.alibaba.fastjson.parser.deserializer.DefaultFieldDeserializer.parseField(DefaultFieldDeserializer.java:85)
+	at com.alibaba.fastjson.parser.deserializer.JavaBeanDeserializer.parseField(JavaBeanDeserializer.java:1224)
+	at com.alibaba.fastjson.parser.deserializer.JavaBeanDeserializer.deserialze(JavaBeanDeserializer.java:850)
+	at com.alibaba.fastjson.parser.deserializer.JavaBeanDeserializer.parseRest(JavaBeanDeserializer.java:1519)
+	at com.alibaba.fastjson.parser.deserializer.FastjsonASMDeserializer_1_HistoryQueryWithPage.deserialze(Unknown Source)
+	at com.alibaba.fastjson.parser.deserializer.JavaBeanDeserializer.deserialze(JavaBeanDeserializer.java:284)
+	at com.alibaba.fastjson.parser.DefaultJSONParser.parseObject(DefaultJSONParser.java:689)
+	at com.alibaba.fastjson.JSON.parseObject(JSON.java:369)
+	at com.alibaba.fastjson.JSON.parseObject(JSON.java:273)
+	at com.alibaba.fastjson.JSON.parseObject(JSON.java:546)
+	at com.example.library.controller.BorrowBooksController.getAllBook(BorrowBooksController.java:73)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:197)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:141)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:106)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:893)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:807)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1061)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:961)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:909)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:652)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:733)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:143)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:374)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1590)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+[2020-11-27 10:36:03.544+0800] [http-nio-8081-exec-5] ERROR o.a.c.c.C.[.[.[.[dispatcherServlet] [175]- Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is com.alibaba.fastjson.JSONException: parseInt error, field : page] with root cause
+com.alibaba.fastjson.JSONException: can not cast to int, value : {"page":6}
+	at com.alibaba.fastjson.util.TypeUtils.castToInt(TypeUtils.java:829)
+	at com.alibaba.fastjson.serializer.IntegerCodec.deserialze(IntegerCodec.java:90)
+	at com.alibaba.fastjson.parser.deserializer.DefaultFieldDeserializer.parseField(DefaultFieldDeserializer.java:85)
+	at com.alibaba.fastjson.parser.deserializer.JavaBeanDeserializer.parseField(JavaBeanDeserializer.java:1224)
+	at com.alibaba.fastjson.parser.deserializer.JavaBeanDeserializer.deserialze(JavaBeanDeserializer.java:850)
+	at com.alibaba.fastjson.parser.deserializer.JavaBeanDeserializer.parseRest(JavaBeanDeserializer.java:1519)
+	at com.alibaba.fastjson.parser.deserializer.FastjsonASMDeserializer_1_HistoryQueryWithPage.deserialze(Unknown Source)
+	at com.alibaba.fastjson.parser.deserializer.JavaBeanDeserializer.deserialze(JavaBeanDeserializer.java:284)
+	at com.alibaba.fastjson.parser.DefaultJSONParser.parseObject(DefaultJSONParser.java:689)
+	at com.alibaba.fastjson.JSON.parseObject(JSON.java:369)
+	at com.alibaba.fastjson.JSON.parseObject(JSON.java:273)
+	at com.alibaba.fastjson.JSON.parseObject(JSON.java:546)
+	at com.example.library.controller.BorrowBooksController.getAllBook(BorrowBooksController.java:73)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:197)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:141)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:106)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:893)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:807)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1061)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:961)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:909)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:652)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:733)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:143)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:374)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1590)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+[2020-11-27 10:40:45.117+0800] [http-nio-8081-exec-7] INFO  c.e.library.service.MailService [40]- 邮件已经发送。
+[2020-11-27 10:42:45.483+0800] [http-nio-8081-exec-1] INFO  c.e.library.service.MailService [40]- 邮件已经发送。
+[2020-11-27 10:44:26.952+0800] [http-nio-8081-exec-5] ERROR c.e.l.controller.UserController [86]- callback get login error,com.example.library.beans.User@6af76192
+[2020-11-27 10:44:35.014+0800] [http-nio-8081-exec-6] ERROR c.e.l.controller.UserController [86]- callback get login error,com.example.library.beans.User@586773ec
+[2020-11-27 10:44:57.942+0800] [http-nio-8081-exec-7] INFO  c.e.library.service.MailService [40]- 邮件已经发送。
+[2020-11-27 10:52:59.931+0800] [http-nio-8081-exec-6] INFO  c.e.library.service.MailService [40]- 邮件已经发送。
+[2020-11-27 11:08:24.812+0800] [http-nio-8081-exec-1] ERROR c.e.l.controller.UserController [86]- callback get login error,com.example.library.beans.User@2865e59b
+[2020-11-27 11:08:30.679+0800] [http-nio-8081-exec-2] ERROR c.e.l.controller.UserController [86]- callback get login error,com.example.library.beans.User@2c2905e7
+[2020-11-27 11:08:56.204+0800] [http-nio-8081-exec-5] WARN  o.s.w.s.m.s.DefaultHandlerExceptionResolver [207]- Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'GET' not supported]
+[2020-11-27 11:12:04.239+0800] [http-nio-8081-exec-8] ERROR o.a.c.c.C.[.[.[.[dispatcherServlet] [175]- Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is java.lang.RuntimeException: Value for accountId cannot be null] with root cause
+java.lang.RuntimeException: Value for accountId cannot be null
+	at com.example.library.beans.CurrBooksExample$GeneratedCriteria.addCriterion(CurrBooksExample.java:185)
+	at com.example.library.beans.CurrBooksExample$GeneratedCriteria.andAccountIdEqualTo(CurrBooksExample.java:398)
+	at com.example.library.beans.CurrBooksExample$Criteria.andAccountIdEqualTo(CurrBooksExample.java:464)
+	at com.example.library.service.CurrentService.remainTimeInfo(CurrentService.java:216)
+	at com.example.library.controller.UserController.sendInfo(UserController.java:164)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:197)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:141)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:106)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:893)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:807)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1061)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:961)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:909)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:652)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:733)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:143)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:374)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1590)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+[2020-11-27 11:12:18.952+0800] [http-nio-8081-exec-2] ERROR o.a.c.c.C.[.[.[.[dispatcherServlet] [175]- Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is java.lang.RuntimeException: Value for accountId cannot be null] with root cause
+java.lang.RuntimeException: Value for accountId cannot be null
+	at com.example.library.beans.CurrBooksExample$GeneratedCriteria.addCriterion(CurrBooksExample.java:185)
+	at com.example.library.beans.CurrBooksExample$GeneratedCriteria.andAccountIdEqualTo(CurrBooksExample.java:398)
+	at com.example.library.beans.CurrBooksExample$Criteria.andAccountIdEqualTo(CurrBooksExample.java:464)
+	at com.example.library.service.CurrentService.remainTimeInfo(CurrentService.java:216)
+	at com.example.library.controller.UserController.sendInfo(UserController.java:164)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:197)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:141)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:106)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:893)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:807)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1061)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:961)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:909)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:652)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:733)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:143)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:374)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1590)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+[2020-11-27 11:12:51.210+0800] [http-nio-8081-exec-8] ERROR o.a.c.c.C.[.[.[.[dispatcherServlet] [175]- Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is java.lang.RuntimeException: Value for accountId cannot be null] with root cause
+java.lang.RuntimeException: Value for accountId cannot be null
+	at com.example.library.beans.CurrBooksExample$GeneratedCriteria.addCriterion(CurrBooksExample.java:185)
+	at com.example.library.beans.CurrBooksExample$GeneratedCriteria.andAccountIdEqualTo(CurrBooksExample.java:398)
+	at com.example.library.beans.CurrBooksExample$Criteria.andAccountIdEqualTo(CurrBooksExample.java:464)
+	at com.example.library.service.CurrentService.remainTimeInfo(CurrentService.java:216)
+	at com.example.library.controller.UserController.sendInfo(UserController.java:164)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:197)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:141)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:106)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:893)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:807)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1061)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:961)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:909)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:652)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:733)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:143)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:374)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1590)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+[2020-11-27 11:16:30.937+0800] [main] INFO  c.example.library.LibraryApplication [55]- Starting LibraryApplication using Java 1.8.0_241 on DESKTOP-F8LLN01 with PID 10164 (E:\codes\eclipse_new\library\target\classes started by 愈 in E:\codes\eclipse_new\library)
+[2020-11-27 11:16:30.940+0800] [main] INFO  c.example.library.LibraryApplication [660]- No active profile set, falling back to default profiles: default
+[2020-11-27 11:16:33.232+0800] [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer [108]- Tomcat initialized with port(s): 8081 (http)
+[2020-11-27 11:16:33.243+0800] [main] INFO  o.a.coyote.http11.Http11NioProtocol [173]- Initializing ProtocolHandler ["http-nio-8081"]
+[2020-11-27 11:16:33.244+0800] [main] INFO  o.a.catalina.core.StandardService [173]- Starting service [Tomcat]
+[2020-11-27 11:16:33.245+0800] [main] INFO  o.a.catalina.core.StandardEngine [173]- Starting Servlet engine: [Apache Tomcat/9.0.39]
+[2020-11-27 11:16:33.341+0800] [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] [173]- Initializing Spring embedded WebApplicationContext
+[2020-11-27 11:16:33.342+0800] [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext [289]- Root WebApplicationContext: initialization completed in 2299 ms
+[2020-11-27 11:16:34.363+0800] [main] INFO  o.s.s.c.ThreadPoolTaskExecutor [181]- Initializing ExecutorService 'applicationTaskExecutor'
+[2020-11-27 11:16:34.675+0800] [main] INFO  o.s.s.c.ThreadPoolTaskScheduler [181]- Initializing ExecutorService 'taskScheduler'
+[2020-11-27 11:16:34.715+0800] [main] INFO  o.a.coyote.http11.Http11NioProtocol [173]- Starting ProtocolHandler ["http-nio-8081"]
+[2020-11-27 11:16:34.747+0800] [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer [220]- Tomcat started on port(s): 8081 (http) with context path ''
+[2020-11-27 11:16:34.770+0800] [main] INFO  c.example.library.LibraryApplication [61]- Started LibraryApplication in 4.546 seconds (JVM running for 5.091)
+[2020-11-27 11:16:35.831+0800] [scheduling-1] INFO  com.zaxxer.hikari.HikariDataSource [110]- HikariPool-1 - Starting...
+[2020-11-27 11:16:36.070+0800] [scheduling-1] INFO  com.zaxxer.hikari.HikariDataSource [123]- HikariPool-1 - Start completed.
+[2020-11-27 11:16:36.093+0800] [scheduling-1] INFO  c.e.library.service.ScheduledTask [29]- 2020-11-27T11:16:36.093清理僵尸账户0个
+[2020-11-27 11:16:44.169+0800] [http-nio-8081-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] [173]- Initializing Spring DispatcherServlet 'dispatcherServlet'
+[2020-11-27 11:16:44.170+0800] [http-nio-8081-exec-1] INFO  o.s.web.servlet.DispatcherServlet [525]- Initializing Servlet 'dispatcherServlet'
+[2020-11-27 11:16:44.179+0800] [http-nio-8081-exec-1] INFO  o.s.web.servlet.DispatcherServlet [547]- Completed initialization in 9 ms
+[2020-11-27 11:17:10.785+0800] [http-nio-8081-exec-6] ERROR o.a.c.c.C.[.[.[.[dispatcherServlet] [175]- Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is java.lang.RuntimeException: Value for accountId cannot be null] with root cause
+java.lang.RuntimeException: Value for accountId cannot be null
+	at com.example.library.beans.UserExample$GeneratedCriteria.addCriterion(UserExample.java:153)
+	at com.example.library.beans.UserExample$GeneratedCriteria.andAccountIdEqualTo(UserExample.java:236)
+	at com.example.library.beans.UserExample$Criteria.andAccountIdEqualTo(UserExample.java:1175)
+	at com.example.library.service.UserService.preHandle(UserService.java:101)
+	at com.example.library.controller.UserController.sendInfo(UserController.java:166)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:197)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:141)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:106)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:893)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:807)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1061)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:961)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:909)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:652)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:733)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:143)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:374)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1590)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+[2020-11-27 11:17:49.472+0800] [http-nio-8081-exec-10] INFO  c.e.library.service.MailService [40]- 邮件已经发送。
+[2020-11-27 11:18:23.228+0800] [main] INFO  c.example.library.LibraryApplication [55]- Starting LibraryApplication using Java 1.8.0_241 on DESKTOP-F8LLN01 with PID 11208 (E:\codes\eclipse_new\library\target\classes started by 愈 in E:\codes\eclipse_new\library)
+[2020-11-27 11:18:23.232+0800] [main] INFO  c.example.library.LibraryApplication [660]- No active profile set, falling back to default profiles: default
+[2020-11-27 11:18:25.323+0800] [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer [108]- Tomcat initialized with port(s): 8081 (http)
+[2020-11-27 11:18:25.335+0800] [main] INFO  o.a.coyote.http11.Http11NioProtocol [173]- Initializing ProtocolHandler ["http-nio-8081"]
+[2020-11-27 11:18:25.335+0800] [main] INFO  o.a.catalina.core.StandardService [173]- Starting service [Tomcat]
+[2020-11-27 11:18:25.336+0800] [main] INFO  o.a.catalina.core.StandardEngine [173]- Starting Servlet engine: [Apache Tomcat/9.0.39]
+[2020-11-27 11:18:25.477+0800] [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] [173]- Initializing Spring embedded WebApplicationContext
+[2020-11-27 11:18:25.478+0800] [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext [289]- Root WebApplicationContext: initialization completed in 2154 ms
+[2020-11-27 11:18:26.755+0800] [main] INFO  o.s.s.c.ThreadPoolTaskExecutor [181]- Initializing ExecutorService 'applicationTaskExecutor'
+[2020-11-27 11:18:27.039+0800] [main] INFO  o.s.s.c.ThreadPoolTaskScheduler [181]- Initializing ExecutorService 'taskScheduler'
+[2020-11-27 11:18:27.076+0800] [main] INFO  o.a.coyote.http11.Http11NioProtocol [173]- Starting ProtocolHandler ["http-nio-8081"]
+[2020-11-27 11:18:27.109+0800] [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer [220]- Tomcat started on port(s): 8081 (http) with context path ''
+[2020-11-27 11:18:27.125+0800] [main] INFO  c.example.library.LibraryApplication [61]- Started LibraryApplication in 4.592 seconds (JVM running for 5.211)
+[2020-11-27 11:18:28.192+0800] [scheduling-1] INFO  com.zaxxer.hikari.HikariDataSource [110]- HikariPool-1 - Starting...
+[2020-11-27 11:18:28.435+0800] [scheduling-1] INFO  com.zaxxer.hikari.HikariDataSource [123]- HikariPool-1 - Start completed.
+[2020-11-27 11:18:28.466+0800] [scheduling-1] INFO  c.e.library.service.ScheduledTask [29]- 2020-11-27T11:18:28.466清理僵尸账户1个
+[2020-11-27 11:18:30.424+0800] [http-nio-8081-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] [173]- Initializing Spring DispatcherServlet 'dispatcherServlet'
+[2020-11-27 11:18:30.425+0800] [http-nio-8081-exec-1] INFO  o.s.web.servlet.DispatcherServlet [525]- Initializing Servlet 'dispatcherServlet'
+[2020-11-27 11:18:30.426+0800] [http-nio-8081-exec-1] INFO  o.s.web.servlet.DispatcherServlet [547]- Completed initialization in 1 ms
+[2020-11-27 11:18:32.016+0800] [http-nio-8081-exec-1] INFO  c.e.library.service.MailService [40]- 邮件已经发送。
+[2020-11-27 11:18:49.673+0800] [http-nio-8081-exec-9] ERROR o.a.c.c.C.[.[.[.[dispatcherServlet] [175]- Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is java.lang.RuntimeException: Value for accountId cannot be null] with root cause
+java.lang.RuntimeException: Value for accountId cannot be null
+	at com.example.library.beans.UserExample$GeneratedCriteria.addCriterion(UserExample.java:153)
+	at com.example.library.beans.UserExample$GeneratedCriteria.andAccountIdEqualTo(UserExample.java:236)
+	at com.example.library.beans.UserExample$Criteria.andAccountIdEqualTo(UserExample.java:1175)
+	at com.example.library.service.UserService.preHandle(UserService.java:101)
+	at com.example.library.controller.UserController.sendInfo(UserController.java:168)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:197)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:141)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:106)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:893)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:807)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1061)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:961)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:909)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:652)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:733)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:143)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:374)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1590)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+[2020-11-27 11:19:40.362+0800] [http-nio-8081-exec-7] INFO  c.e.library.service.MailService [40]- 邮件已经发送。
+[2020-11-27 11:23:35.324+0800] [http-nio-8081-exec-8] INFO  c.e.library.service.MailService [40]- 邮件已经发送。
+[2020-11-27 11:24:06.615+0800] [http-nio-8081-exec-10] INFO  c.e.library.service.MailService [40]- 邮件已经发送。
+[2020-11-27 11:31:56.795+0800] [http-nio-8081-exec-2] INFO  c.e.library.service.MailService [40]- 邮件已经发送。
+[2020-11-27 11:38:02.213+0800] [http-nio-8081-exec-8] INFO  c.e.library.service.MailService [40]- 邮件已经发送。
+[2020-11-27 11:40:15.582+0800] [main] INFO  c.e.library.LibraryApplicationTests [55]- Starting LibraryApplicationTests using Java 1.8.0_241 on DESKTOP-F8LLN01 with PID 5912 (started by �� in E:\codes\eclipse_new\library)
+[2020-11-27 11:40:15.592+0800] [main] INFO  c.e.library.LibraryApplicationTests [660]- No active profile set, falling back to default profiles: default
+[2020-11-27 11:40:18.487+0800] [main] INFO  o.s.s.c.ThreadPoolTaskExecutor [181]- Initializing ExecutorService 'applicationTaskExecutor'
+[2020-11-27 11:40:18.996+0800] [main] INFO  o.s.s.c.ThreadPoolTaskScheduler [181]- Initializing ExecutorService 'taskScheduler'
+[2020-11-27 11:40:19.091+0800] [main] INFO  c.e.library.LibraryApplicationTests [61]- Started LibraryApplicationTests in 4.103 seconds (JVM running for 5.423)
+[2020-11-27 11:40:19.652+0800] [SpringContextShutdownHook] INFO  o.s.s.c.ThreadPoolTaskScheduler [218]- Shutting down ExecutorService 'taskScheduler'
+[2020-11-27 11:40:19.655+0800] [SpringContextShutdownHook] INFO  o.s.s.c.ThreadPoolTaskExecutor [218]- Shutting down ExecutorService 'applicationTaskExecutor'
+[2020-11-27 11:41:18.607+0800] [main] INFO  c.example.library.LibraryApplication [55]- Starting LibraryApplication using Java 1.8.0_241 on DESKTOP-F8LLN01 with PID 1920 (E:\codes\eclipse_new\library\target\classes started by 愈 in E:\codes\eclipse_new\library)
+[2020-11-27 11:41:18.611+0800] [main] INFO  c.example.library.LibraryApplication [660]- No active profile set, falling back to default profiles: default
+[2020-11-27 11:41:20.452+0800] [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer [108]- Tomcat initialized with port(s): 8081 (http)
+[2020-11-27 11:41:20.469+0800] [main] INFO  o.a.coyote.http11.Http11NioProtocol [173]- Initializing ProtocolHandler ["http-nio-8081"]
+[2020-11-27 11:41:20.470+0800] [main] INFO  o.a.catalina.core.StandardService [173]- Starting service [Tomcat]
+[2020-11-27 11:41:20.470+0800] [main] INFO  o.a.catalina.core.StandardEngine [173]- Starting Servlet engine: [Apache Tomcat/9.0.39]
+[2020-11-27 11:41:20.602+0800] [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] [173]- Initializing Spring embedded WebApplicationContext
+[2020-11-27 11:41:20.602+0800] [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext [289]- Root WebApplicationContext: initialization completed in 1895 ms
+[2020-11-27 11:41:21.973+0800] [main] INFO  o.s.s.c.ThreadPoolTaskExecutor [181]- Initializing ExecutorService 'applicationTaskExecutor'
+[2020-11-27 11:41:22.259+0800] [main] INFO  o.s.s.c.ThreadPoolTaskScheduler [181]- Initializing ExecutorService 'taskScheduler'
+[2020-11-27 11:41:22.295+0800] [main] INFO  o.a.coyote.http11.Http11NioProtocol [173]- Starting ProtocolHandler ["http-nio-8081"]
+[2020-11-27 11:41:22.328+0800] [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer [220]- Tomcat started on port(s): 8081 (http) with context path ''
+[2020-11-27 11:41:22.347+0800] [main] INFO  c.example.library.LibraryApplication [61]- Started LibraryApplication in 4.453 seconds (JVM running for 5.242)
+[2020-11-27 11:41:23.408+0800] [scheduling-1] INFO  com.zaxxer.hikari.HikariDataSource [110]- HikariPool-1 - Starting...
+[2020-11-27 11:41:23.659+0800] [scheduling-1] INFO  com.zaxxer.hikari.HikariDataSource [123]- HikariPool-1 - Start completed.
+[2020-11-27 11:41:23.681+0800] [scheduling-1] INFO  c.e.library.service.ScheduledTask [29]- 2020-11-27T11:41:23.680清理僵尸账户0个
+[2020-11-27 11:48:36.966+0800] [http-nio-8081-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] [173]- Initializing Spring DispatcherServlet 'dispatcherServlet'
+[2020-11-27 11:48:36.967+0800] [http-nio-8081-exec-1] INFO  o.s.web.servlet.DispatcherServlet [525]- Initializing Servlet 'dispatcherServlet'
+[2020-11-27 11:48:36.969+0800] [http-nio-8081-exec-1] INFO  o.s.web.servlet.DispatcherServlet [547]- Completed initialization in 2 ms
+[2020-11-27 11:48:38.575+0800] [http-nio-8081-exec-1] INFO  c.e.library.service.MailService [40]- 邮件已经发送。
+[2020-11-27 12:00:00.063+0800] [http-nio-8081-exec-2] INFO  c.e.library.service.MailService [40]- 邮件已经发送。
+[2020-11-27 12:34:17.342+0800] [main] INFO  c.e.library.LibraryApplicationTests [55]- Starting LibraryApplicationTests using Java 1.8.0_65 on DESKTOP-FMJDKVB with PID 20308 (started by Jimho in C:\Users\Jimho\Desktop\���\library)
+[2020-11-27 12:34:17.350+0800] [main] INFO  c.e.library.LibraryApplicationTests [660]- No active profile set, falling back to default profiles: default
+[2020-11-27 12:34:21.813+0800] [main] INFO  o.s.s.c.ThreadPoolTaskExecutor [181]- Initializing ExecutorService 'applicationTaskExecutor'
+[2020-11-27 12:34:22.557+0800] [main] INFO  o.s.s.c.ThreadPoolTaskScheduler [181]- Initializing ExecutorService 'taskScheduler'
+[2020-11-27 12:34:22.688+0800] [main] INFO  c.e.library.LibraryApplicationTests [61]- Started LibraryApplicationTests in 6.556 seconds (JVM running for 9.109)
+[2020-11-27 12:34:23.154+0800] [SpringContextShutdownHook] INFO  o.s.s.c.ThreadPoolTaskScheduler [218]- Shutting down ExecutorService 'taskScheduler'
+[2020-11-27 12:34:23.156+0800] [SpringContextShutdownHook] INFO  o.s.s.c.ThreadPoolTaskExecutor [218]- Shutting down ExecutorService 'applicationTaskExecutor'
+[2020-11-27 12:40:22.049+0800] [main] INFO  c.e.library.LibraryApplicationTests [55]- Starting LibraryApplicationTests using Java 1.8.0_65 on DESKTOP-FMJDKVB with PID 2640 (started by Jimho in C:\Users\Jimho\Desktop\���\library)
+[2020-11-27 12:40:22.056+0800] [main] INFO  c.e.library.LibraryApplicationTests [660]- No active profile set, falling back to default profiles: default
+[2020-11-27 12:40:25.363+0800] [main] INFO  o.s.s.c.ThreadPoolTaskExecutor [181]- Initializing ExecutorService 'applicationTaskExecutor'
+[2020-11-27 12:40:26.158+0800] [main] INFO  o.s.s.c.ThreadPoolTaskScheduler [181]- Initializing ExecutorService 'taskScheduler'
+[2020-11-27 12:40:26.263+0800] [main] INFO  c.e.library.LibraryApplicationTests [61]- Started LibraryApplicationTests in 5.147 seconds (JVM running for 6.973)
+[2020-11-27 12:40:26.654+0800] [SpringContextShutdownHook] INFO  o.s.s.c.ThreadPoolTaskScheduler [218]- Shutting down ExecutorService 'taskScheduler'
+[2020-11-27 12:40:26.656+0800] [SpringContextShutdownHook] INFO  o.s.s.c.ThreadPoolTaskExecutor [218]- Shutting down ExecutorService 'applicationTaskExecutor'
+[2020-11-27 12:44:44.591+0800] [main] INFO  c.e.library.LibraryApplicationTests [55]- Starting LibraryApplicationTests using Java 1.8.0_65 on DESKTOP-FMJDKVB with PID 21224 (started by Jimho in C:\Users\Jimho\Desktop\���\library)
+[2020-11-27 12:44:44.598+0800] [main] INFO  c.e.library.LibraryApplicationTests [660]- No active profile set, falling back to default profiles: default
+[2020-11-27 12:44:48.028+0800] [main] INFO  o.s.s.c.ThreadPoolTaskExecutor [181]- Initializing ExecutorService 'applicationTaskExecutor'
+[2020-11-27 12:44:48.588+0800] [main] INFO  o.s.s.c.ThreadPoolTaskScheduler [181]- Initializing ExecutorService 'taskScheduler'
+[2020-11-27 12:44:48.733+0800] [main] INFO  c.e.library.LibraryApplicationTests [61]- Started LibraryApplicationTests in 4.971 seconds (JVM running for 6.634)
+[2020-11-27 12:44:49.249+0800] [SpringContextShutdownHook] INFO  o.s.s.c.ThreadPoolTaskScheduler [218]- Shutting down ExecutorService 'taskScheduler'
+[2020-11-27 12:44:49.250+0800] [SpringContextShutdownHook] INFO  o.s.s.c.ThreadPoolTaskExecutor [218]- Shutting down ExecutorService 'applicationTaskExecutor'
+[2020-11-27 12:59:59.189+0800] [main] INFO  c.example.library.LibraryApplication [55]- Starting LibraryApplication using Java 1.8.0_65 on DESKTOP-FMJDKVB with PID 3372 (C:\Users\Jimho\Desktop\后端\library\target\classes started by Jimho in C:\Users\Jimho\Desktop\后端\library)
+[2020-11-27 12:59:59.244+0800] [main] INFO  c.example.library.LibraryApplication [660]- No active profile set, falling back to default profiles: default
+[2020-11-27 13:00:03.329+0800] [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer [108]- Tomcat initialized with port(s): 8081 (http)
+[2020-11-27 13:00:03.360+0800] [main] INFO  o.a.coyote.http11.Http11NioProtocol [173]- Initializing ProtocolHandler ["http-nio-8081"]
+[2020-11-27 13:00:03.362+0800] [main] INFO  o.a.catalina.core.StandardService [173]- Starting service [Tomcat]
+[2020-11-27 13:00:03.363+0800] [main] INFO  o.a.catalina.core.StandardEngine [173]- Starting Servlet engine: [Apache Tomcat/9.0.39]
+[2020-11-27 13:00:03.750+0800] [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] [173]- Initializing Spring embedded WebApplicationContext
+[2020-11-27 13:00:03.752+0800] [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext [289]- Root WebApplicationContext: initialization completed in 4416 ms
+[2020-11-27 13:00:05.127+0800] [main] INFO  o.s.s.c.ThreadPoolTaskExecutor [181]- Initializing ExecutorService 'applicationTaskExecutor'
+[2020-11-27 13:00:05.414+0800] [main] INFO  o.s.s.c.ThreadPoolTaskScheduler [181]- Initializing ExecutorService 'taskScheduler'
+[2020-11-27 13:00:05.445+0800] [main] INFO  o.a.coyote.http11.Http11NioProtocol [173]- Starting ProtocolHandler ["http-nio-8081"]
+[2020-11-27 13:00:05.468+0800] [main] WARN  o.s.b.w.s.c.AnnotationConfigServletWebServerApplicationContext [596]- Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'; nested exception is org.springframework.boot.web.server.PortInUseException: Port 8081 is already in use
+[2020-11-27 13:00:05.469+0800] [main] INFO  o.s.s.c.ThreadPoolTaskScheduler [218]- Shutting down ExecutorService 'taskScheduler'
+[2020-11-27 13:00:05.469+0800] [main] INFO  o.s.s.c.ThreadPoolTaskExecutor [218]- Shutting down ExecutorService 'applicationTaskExecutor'
+[2020-11-27 13:00:05.475+0800] [main] INFO  o.a.coyote.http11.Http11NioProtocol [173]- Pausing ProtocolHandler ["http-nio-8081"]
+[2020-11-27 13:00:05.476+0800] [main] INFO  o.a.catalina.core.StandardService [173]- Stopping service [Tomcat]
+[2020-11-27 13:00:05.480+0800] [main] INFO  o.a.coyote.http11.Http11NioProtocol [173]- Stopping ProtocolHandler ["http-nio-8081"]
+[2020-11-27 13:00:05.480+0800] [main] INFO  o.a.coyote.http11.Http11NioProtocol [173]- Destroying ProtocolHandler ["http-nio-8081"]
+[2020-11-27 13:00:05.487+0800] [main] INFO  o.s.b.a.l.ConditionEvaluationReportLoggingListener [136]- 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+[2020-11-27 13:00:05.510+0800] [main] ERROR o.s.b.d.LoggingFailureAnalysisReporter [40]- 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8081 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8081 or configure this application to listen on another port.
+
+[2020-11-27 13:00:27.807+0800] [main] INFO  c.example.library.LibraryApplication [55]- Starting LibraryApplication using Java 1.8.0_65 on DESKTOP-FMJDKVB with PID 20800 (C:\Users\Jimho\Desktop\后端\library\target\classes started by Jimho in C:\Users\Jimho\Desktop\后端\library)
+[2020-11-27 13:00:27.813+0800] [main] INFO  c.example.library.LibraryApplication [660]- No active profile set, falling back to default profiles: default
+[2020-11-27 13:00:32.847+0800] [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer [108]- Tomcat initialized with port(s): 8081 (http)
+[2020-11-27 13:00:32.866+0800] [main] INFO  o.a.coyote.http11.Http11NioProtocol [173]- Initializing ProtocolHandler ["http-nio-8081"]
+[2020-11-27 13:00:32.867+0800] [main] INFO  o.a.catalina.core.StandardService [173]- Starting service [Tomcat]
+[2020-11-27 13:00:32.867+0800] [main] INFO  o.a.catalina.core.StandardEngine [173]- Starting Servlet engine: [Apache Tomcat/9.0.39]
+[2020-11-27 13:00:33.000+0800] [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] [173]- Initializing Spring embedded WebApplicationContext
+[2020-11-27 13:00:33.000+0800] [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext [289]- Root WebApplicationContext: initialization completed in 5066 ms
+[2020-11-27 13:00:33.906+0800] [main] INFO  o.s.s.c.ThreadPoolTaskExecutor [181]- Initializing ExecutorService 'applicationTaskExecutor'
+[2020-11-27 13:00:34.217+0800] [main] INFO  o.s.s.c.ThreadPoolTaskScheduler [181]- Initializing ExecutorService 'taskScheduler'
+[2020-11-27 13:00:34.248+0800] [main] INFO  o.a.coyote.http11.Http11NioProtocol [173]- Starting ProtocolHandler ["http-nio-8081"]
+[2020-11-27 13:00:34.282+0800] [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer [220]- Tomcat started on port(s): 8081 (http) with context path ''
+[2020-11-27 13:00:34.297+0800] [main] INFO  c.example.library.LibraryApplication [61]- Started LibraryApplication in 7.459 seconds (JVM running for 8.091)
+[2020-11-27 13:00:35.500+0800] [scheduling-1] INFO  com.zaxxer.hikari.HikariDataSource [110]- HikariPool-1 - Starting...
+[2020-11-27 13:00:35.821+0800] [scheduling-1] INFO  com.zaxxer.hikari.HikariDataSource [123]- HikariPool-1 - Start completed.
+[2020-11-27 13:00:35.893+0800] [scheduling-1] INFO  c.e.library.service.ScheduledTask [29]- 2020-11-27T13:00:35.893清理僵尸账户2个
+[2020-11-27 13:00:44.621+0800] [http-nio-8081-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] [173]- Initializing Spring DispatcherServlet 'dispatcherServlet'
+[2020-11-27 13:00:44.624+0800] [http-nio-8081-exec-1] INFO  o.s.web.servlet.DispatcherServlet [525]- Initializing Servlet 'dispatcherServlet'
+[2020-11-27 13:00:44.625+0800] [http-nio-8081-exec-1] INFO  o.s.web.servlet.DispatcherServlet [547]- Completed initialization in 1 ms

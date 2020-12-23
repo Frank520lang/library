@@ -1,0 +1,585 @@
+[2020-11-25 18:07:29.232+0800] [main] INFO  c.e.library.LibraryApplicationTests [55]- Starting LibraryApplicationTests using Java 1.8.0_241 on DESKTOP-F8LLN01 with PID 11624 (started by �� in E:\codes\eclipse_new\library)
+[2020-11-25 18:07:29.246+0800] [main] INFO  c.e.library.LibraryApplicationTests [660]- No active profile set, falling back to default profiles: default
+[2020-11-25 18:07:32.217+0800] [main] INFO  o.s.s.c.ThreadPoolTaskExecutor [181]- Initializing ExecutorService 'applicationTaskExecutor'
+[2020-11-25 18:07:32.729+0800] [main] INFO  o.s.s.c.ThreadPoolTaskScheduler [181]- Initializing ExecutorService 'taskScheduler'
+[2020-11-25 18:07:32.903+0800] [main] INFO  c.e.library.LibraryApplicationTests [61]- Started LibraryApplicationTests in 4.239 seconds (JVM running for 5.816)
+[2020-11-25 18:07:33.368+0800] [SpringContextShutdownHook] INFO  o.s.s.c.ThreadPoolTaskScheduler [218]- Shutting down ExecutorService 'taskScheduler'
+[2020-11-25 18:07:33.370+0800] [SpringContextShutdownHook] INFO  o.s.s.c.ThreadPoolTaskExecutor [218]- Shutting down ExecutorService 'applicationTaskExecutor'
+[2020-11-25 18:07:49.106+0800] [main] INFO  c.example.library.LibraryApplication [55]- Starting LibraryApplication using Java 1.8.0_241 on DESKTOP-F8LLN01 with PID 11536 (E:\codes\eclipse_new\library\target\classes started by 愈 in E:\codes\eclipse_new\library)
+[2020-11-25 18:07:49.110+0800] [main] INFO  c.example.library.LibraryApplication [660]- No active profile set, falling back to default profiles: default
+[2020-11-25 18:07:50.832+0800] [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer [108]- Tomcat initialized with port(s): 8081 (http)
+[2020-11-25 18:07:50.857+0800] [main] INFO  o.a.coyote.http11.Http11NioProtocol [173]- Initializing ProtocolHandler ["http-nio-8081"]
+[2020-11-25 18:07:50.858+0800] [main] INFO  o.a.catalina.core.StandardService [173]- Starting service [Tomcat]
+[2020-11-25 18:07:50.858+0800] [main] INFO  o.a.catalina.core.StandardEngine [173]- Starting Servlet engine: [Apache Tomcat/9.0.39]
+[2020-11-25 18:07:50.944+0800] [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] [173]- Initializing Spring embedded WebApplicationContext
+[2020-11-25 18:07:50.945+0800] [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext [289]- Root WebApplicationContext: initialization completed in 1739 ms
+[2020-11-25 18:07:52.018+0800] [main] INFO  o.s.s.c.ThreadPoolTaskExecutor [181]- Initializing ExecutorService 'applicationTaskExecutor'
+[2020-11-25 18:07:52.288+0800] [main] INFO  o.s.s.c.ThreadPoolTaskScheduler [181]- Initializing ExecutorService 'taskScheduler'
+[2020-11-25 18:07:52.332+0800] [main] INFO  o.a.coyote.http11.Http11NioProtocol [173]- Starting ProtocolHandler ["http-nio-8081"]
+[2020-11-25 18:07:52.369+0800] [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer [220]- Tomcat started on port(s): 8081 (http) with context path ''
+[2020-11-25 18:07:52.387+0800] [main] INFO  c.example.library.LibraryApplication [61]- Started LibraryApplication in 3.999 seconds (JVM running for 4.541)
+[2020-11-25 18:07:53.449+0800] [scheduling-1] INFO  com.zaxxer.hikari.HikariDataSource [110]- HikariPool-1 - Starting...
+[2020-11-25 18:07:53.688+0800] [scheduling-1] INFO  com.zaxxer.hikari.HikariDataSource [123]- HikariPool-1 - Start completed.
+[2020-11-25 18:07:53.715+0800] [scheduling-1] INFO  c.e.library.service.ScheduledTask [29]- 2020-11-25T18:07:53.715清理僵尸账户0个
+[2020-11-25 18:09:52.752+0800] [http-nio-8081-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] [173]- Initializing Spring DispatcherServlet 'dispatcherServlet'
+[2020-11-25 18:09:52.753+0800] [http-nio-8081-exec-1] INFO  o.s.web.servlet.DispatcherServlet [525]- Initializing Servlet 'dispatcherServlet'
+[2020-11-25 18:09:52.756+0800] [http-nio-8081-exec-1] INFO  o.s.web.servlet.DispatcherServlet [547]- Completed initialization in 2 ms
+[2020-11-25 18:10:25.289+0800] [http-nio-8081-exec-3] ERROR o.a.c.c.C.[.[.[.[dispatcherServlet] [175]- Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is java.lang.NullPointerException] with root cause
+java.lang.NullPointerException: null
+	at com.example.library.utils.Md5Utils.code(Md5Utils.java:11)
+	at com.example.library.controller.UserController.doLogin(UserController.java:60)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:197)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:141)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:106)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:893)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:807)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1061)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:961)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:909)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:652)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:733)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:143)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:374)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1590)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+[2020-11-25 18:10:58.231+0800] [http-nio-8081-exec-4] ERROR o.a.c.c.C.[.[.[.[dispatcherServlet] [175]- Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is java.lang.NullPointerException] with root cause
+java.lang.NullPointerException: null
+	at com.example.library.utils.Md5Utils.code(Md5Utils.java:11)
+	at com.example.library.controller.UserController.doLogin(UserController.java:60)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:197)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:141)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:106)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:893)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:807)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1061)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:961)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:909)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:652)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:733)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:143)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:374)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1590)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+[2020-11-25 18:11:22.465+0800] [http-nio-8081-exec-6] ERROR c.e.l.controller.UserController [80]- callback get login error,com.example.library.beans.User@393592c8
+[2020-11-25 18:40:14.023+0800] [main] INFO  c.example.library.LibraryApplication [55]- Starting LibraryApplication using Java 1.8.0_241 on DESKTOP-F8LLN01 with PID 10100 (E:\codes\eclipse_new\library\target\classes started by 愈 in E:\codes\eclipse_new\library)
+[2020-11-25 18:40:14.028+0800] [main] INFO  c.example.library.LibraryApplication [660]- No active profile set, falling back to default profiles: default
+[2020-11-25 18:40:17.104+0800] [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer [108]- Tomcat initialized with port(s): 8081 (http)
+[2020-11-25 18:40:17.132+0800] [main] INFO  o.a.coyote.http11.Http11NioProtocol [173]- Initializing ProtocolHandler ["http-nio-8081"]
+[2020-11-25 18:40:17.133+0800] [main] INFO  o.a.catalina.core.StandardService [173]- Starting service [Tomcat]
+[2020-11-25 18:40:17.134+0800] [main] INFO  o.a.catalina.core.StandardEngine [173]- Starting Servlet engine: [Apache Tomcat/9.0.39]
+[2020-11-25 18:40:17.224+0800] [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] [173]- Initializing Spring embedded WebApplicationContext
+[2020-11-25 18:40:17.225+0800] [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext [289]- Root WebApplicationContext: initialization completed in 3094 ms
+[2020-11-25 18:40:18.450+0800] [main] INFO  o.s.s.c.ThreadPoolTaskExecutor [181]- Initializing ExecutorService 'applicationTaskExecutor'
+[2020-11-25 18:40:18.742+0800] [main] INFO  o.s.s.c.ThreadPoolTaskScheduler [181]- Initializing ExecutorService 'taskScheduler'
+[2020-11-25 18:40:18.783+0800] [main] INFO  o.a.coyote.http11.Http11NioProtocol [173]- Starting ProtocolHandler ["http-nio-8081"]
+[2020-11-25 18:40:18.827+0800] [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer [220]- Tomcat started on port(s): 8081 (http) with context path ''
+[2020-11-25 18:40:18.849+0800] [main] INFO  c.example.library.LibraryApplication [61]- Started LibraryApplication in 5.644 seconds (JVM running for 6.344)
+[2020-11-25 18:40:19.913+0800] [scheduling-1] INFO  com.zaxxer.hikari.HikariDataSource [110]- HikariPool-1 - Starting...
+[2020-11-25 18:40:20.160+0800] [scheduling-1] INFO  com.zaxxer.hikari.HikariDataSource [123]- HikariPool-1 - Start completed.
+[2020-11-25 18:40:20.184+0800] [scheduling-1] INFO  c.e.library.service.ScheduledTask [29]- 2020-11-25T18:40:20.184清理僵尸账户0个
+[2020-11-25 18:40:28.458+0800] [http-nio-8081-exec-2] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] [173]- Initializing Spring DispatcherServlet 'dispatcherServlet'
+[2020-11-25 18:40:28.458+0800] [http-nio-8081-exec-2] INFO  o.s.web.servlet.DispatcherServlet [525]- Initializing Servlet 'dispatcherServlet'
+[2020-11-25 18:40:28.465+0800] [http-nio-8081-exec-2] INFO  o.s.web.servlet.DispatcherServlet [547]- Completed initialization in 7 ms
+[2020-11-25 18:40:28.619+0800] [http-nio-8081-exec-2] INFO  c.e.library.service.BookService [38]- 该bookId已存在
+[2020-11-25 19:00:45.341+0800] [http-nio-8081-exec-6] ERROR c.e.l.controller.UserController [80]- callback get login error,com.example.library.beans.User@7c49b824
+[2020-11-25 19:00:56.292+0800] [http-nio-8081-exec-7] ERROR c.e.l.controller.UserController [80]- callback get login error,com.example.library.beans.User@4316a00b
+[2020-11-25 19:01:12.764+0800] [http-nio-8081-exec-8] ERROR c.e.l.controller.UserController [80]- callback get login error,com.example.library.beans.User@335cabb1
+[2020-11-25 19:01:22.939+0800] [http-nio-8081-exec-9] ERROR c.e.l.controller.UserController [80]- callback get login error,com.example.library.beans.User@4e1ff421
+[2020-11-25 19:01:56.364+0800] [http-nio-8081-exec-10] ERROR c.e.l.controller.UserController [80]- callback get login error,com.example.library.beans.User@721c7f7b
+[2020-11-25 19:02:02.269+0800] [http-nio-8081-exec-1] ERROR c.e.l.controller.UserController [80]- callback get login error,com.example.library.beans.User@5cdb2246
+[2020-11-25 19:09:47.817+0800] [main] INFO  c.example.library.LibraryApplication [55]- Starting LibraryApplication using Java 1.8.0_241 on DESKTOP-F8LLN01 with PID 2448 (E:\codes\eclipse_new\library\target\classes started by 愈 in E:\codes\eclipse_new\library)
+[2020-11-25 19:09:47.821+0800] [main] INFO  c.example.library.LibraryApplication [660]- No active profile set, falling back to default profiles: default
+[2020-11-25 19:09:50.237+0800] [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer [108]- Tomcat initialized with port(s): 8081 (http)
+[2020-11-25 19:09:50.248+0800] [main] INFO  o.a.coyote.http11.Http11NioProtocol [173]- Initializing ProtocolHandler ["http-nio-8081"]
+[2020-11-25 19:09:50.249+0800] [main] INFO  o.a.catalina.core.StandardService [173]- Starting service [Tomcat]
+[2020-11-25 19:09:50.249+0800] [main] INFO  o.a.catalina.core.StandardEngine [173]- Starting Servlet engine: [Apache Tomcat/9.0.39]
+[2020-11-25 19:09:50.333+0800] [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] [173]- Initializing Spring embedded WebApplicationContext
+[2020-11-25 19:09:50.333+0800] [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext [289]- Root WebApplicationContext: initialization completed in 2413 ms
+[2020-11-25 19:09:51.357+0800] [main] INFO  o.s.s.c.ThreadPoolTaskExecutor [181]- Initializing ExecutorService 'applicationTaskExecutor'
+[2020-11-25 19:09:51.665+0800] [main] INFO  o.s.s.c.ThreadPoolTaskScheduler [181]- Initializing ExecutorService 'taskScheduler'
+[2020-11-25 19:09:51.709+0800] [main] INFO  o.a.coyote.http11.Http11NioProtocol [173]- Starting ProtocolHandler ["http-nio-8081"]
+[2020-11-25 19:09:51.749+0800] [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer [220]- Tomcat started on port(s): 8081 (http) with context path ''
+[2020-11-25 19:09:51.772+0800] [main] INFO  c.example.library.LibraryApplication [61]- Started LibraryApplication in 4.639 seconds (JVM running for 5.193)
+[2020-11-25 19:09:52.837+0800] [scheduling-1] INFO  com.zaxxer.hikari.HikariDataSource [110]- HikariPool-1 - Starting...
+[2020-11-25 19:09:53.142+0800] [scheduling-1] INFO  com.zaxxer.hikari.HikariDataSource [123]- HikariPool-1 - Start completed.
+[2020-11-25 19:09:53.175+0800] [scheduling-1] INFO  c.e.library.service.ScheduledTask [29]- 2020-11-25T19:09:53.175清理僵尸账户0个
+[2020-11-25 19:09:54.072+0800] [http-nio-8081-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] [173]- Initializing Spring DispatcherServlet 'dispatcherServlet'
+[2020-11-25 19:09:54.073+0800] [http-nio-8081-exec-1] INFO  o.s.web.servlet.DispatcherServlet [525]- Initializing Servlet 'dispatcherServlet'
+[2020-11-25 19:09:54.076+0800] [http-nio-8081-exec-1] INFO  o.s.web.servlet.DispatcherServlet [547]- Completed initialization in 2 ms
+[2020-11-25 19:19:33.533+0800] [main] INFO  c.e.library.LibraryApplicationTests [55]- Starting LibraryApplicationTests using Java 1.8.0_241 on DESKTOP-F8LLN01 with PID 12624 (started by �� in E:\codes\eclipse_new\library)
+[2020-11-25 19:19:33.540+0800] [main] INFO  c.e.library.LibraryApplicationTests [660]- No active profile set, falling back to default profiles: default
+[2020-11-25 19:19:36.687+0800] [main] INFO  o.s.s.c.ThreadPoolTaskExecutor [181]- Initializing ExecutorService 'applicationTaskExecutor'
+[2020-11-25 19:19:37.228+0800] [main] INFO  o.s.s.c.ThreadPoolTaskScheduler [181]- Initializing ExecutorService 'taskScheduler'
+[2020-11-25 19:19:37.315+0800] [main] INFO  c.e.library.LibraryApplicationTests [61]- Started LibraryApplicationTests in 4.385 seconds (JVM running for 5.702)
+[2020-11-25 19:19:37.811+0800] [SpringContextShutdownHook] INFO  o.s.s.c.ThreadPoolTaskScheduler [218]- Shutting down ExecutorService 'taskScheduler'
+[2020-11-25 19:19:37.815+0800] [SpringContextShutdownHook] INFO  o.s.s.c.ThreadPoolTaskExecutor [218]- Shutting down ExecutorService 'applicationTaskExecutor'
+[2020-11-25 19:37:45.504+0800] [main] INFO  c.example.library.LibraryApplication [55]- Starting LibraryApplication using Java 1.8.0_241 on DESKTOP-F8LLN01 with PID 7388 (E:\codes\eclipse_new\library\target\classes started by 愈 in E:\codes\eclipse_new\library)
+[2020-11-25 19:37:45.510+0800] [main] INFO  c.example.library.LibraryApplication [660]- No active profile set, falling back to default profiles: default
+[2020-11-25 19:37:48.419+0800] [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer [108]- Tomcat initialized with port(s): 8081 (http)
+[2020-11-25 19:37:48.434+0800] [main] INFO  o.a.coyote.http11.Http11NioProtocol [173]- Initializing ProtocolHandler ["http-nio-8081"]
+[2020-11-25 19:37:48.436+0800] [main] INFO  o.a.catalina.core.StandardService [173]- Starting service [Tomcat]
+[2020-11-25 19:37:48.437+0800] [main] INFO  o.a.catalina.core.StandardEngine [173]- Starting Servlet engine: [Apache Tomcat/9.0.39]
+[2020-11-25 19:37:48.613+0800] [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] [173]- Initializing Spring embedded WebApplicationContext
+[2020-11-25 19:37:48.613+0800] [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext [289]- Root WebApplicationContext: initialization completed in 2951 ms
+[2020-11-25 19:37:50.174+0800] [main] INFO  o.s.s.c.ThreadPoolTaskExecutor [181]- Initializing ExecutorService 'applicationTaskExecutor'
+[2020-11-25 19:37:50.539+0800] [main] INFO  o.s.s.c.ThreadPoolTaskScheduler [181]- Initializing ExecutorService 'taskScheduler'
+[2020-11-25 19:37:50.579+0800] [main] INFO  o.a.coyote.http11.Http11NioProtocol [173]- Starting ProtocolHandler ["http-nio-8081"]
+[2020-11-25 19:37:50.612+0800] [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer [220]- Tomcat started on port(s): 8081 (http) with context path ''
+[2020-11-25 19:37:50.628+0800] [main] INFO  c.example.library.LibraryApplication [61]- Started LibraryApplication in 6.248 seconds (JVM running for 7.044)
+[2020-11-25 19:37:51.683+0800] [scheduling-1] INFO  com.zaxxer.hikari.HikariDataSource [110]- HikariPool-1 - Starting...
+[2020-11-25 19:37:51.940+0800] [scheduling-1] INFO  com.zaxxer.hikari.HikariDataSource [123]- HikariPool-1 - Start completed.
+[2020-11-25 19:37:51.969+0800] [scheduling-1] INFO  c.e.library.service.ScheduledTask [29]- 2020-11-25T19:37:51.969清理僵尸账户0个
+[2020-11-25 19:38:10.708+0800] [http-nio-8081-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] [173]- Initializing Spring DispatcherServlet 'dispatcherServlet'
+[2020-11-25 19:38:10.709+0800] [http-nio-8081-exec-1] INFO  o.s.web.servlet.DispatcherServlet [525]- Initializing Servlet 'dispatcherServlet'
+[2020-11-25 19:38:10.711+0800] [http-nio-8081-exec-1] INFO  o.s.web.servlet.DispatcherServlet [547]- Completed initialization in 1 ms
+[2020-11-25 19:38:10.737+0800] [http-nio-8081-exec-1] WARN  o.s.w.s.m.s.DefaultHandlerExceptionResolver [207]- Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'POST' not supported]
+[2020-11-25 19:55:11.786+0800] [main] INFO  c.example.library.LibraryApplication [55]- Starting LibraryApplication using Java 1.8.0_241 on DESKTOP-F8LLN01 with PID 10216 (E:\codes\eclipse_new\library\target\classes started by 愈 in E:\codes\eclipse_new\library)
+[2020-11-25 19:55:11.791+0800] [main] INFO  c.example.library.LibraryApplication [660]- No active profile set, falling back to default profiles: default
+[2020-11-25 19:55:13.769+0800] [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer [108]- Tomcat initialized with port(s): 8081 (http)
+[2020-11-25 19:55:13.780+0800] [main] INFO  o.a.coyote.http11.Http11NioProtocol [173]- Initializing ProtocolHandler ["http-nio-8081"]
+[2020-11-25 19:55:13.781+0800] [main] INFO  o.a.catalina.core.StandardService [173]- Starting service [Tomcat]
+[2020-11-25 19:55:13.782+0800] [main] INFO  o.a.catalina.core.StandardEngine [173]- Starting Servlet engine: [Apache Tomcat/9.0.39]
+[2020-11-25 19:55:13.889+0800] [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] [173]- Initializing Spring embedded WebApplicationContext
+[2020-11-25 19:55:13.890+0800] [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext [289]- Root WebApplicationContext: initialization completed in 1997 ms
+[2020-11-25 19:55:14.966+0800] [main] INFO  o.s.s.c.ThreadPoolTaskExecutor [181]- Initializing ExecutorService 'applicationTaskExecutor'
+[2020-11-25 19:55:15.258+0800] [main] INFO  o.s.s.c.ThreadPoolTaskScheduler [181]- Initializing ExecutorService 'taskScheduler'
+[2020-11-25 19:55:15.294+0800] [main] INFO  o.a.coyote.http11.Http11NioProtocol [173]- Starting ProtocolHandler ["http-nio-8081"]
+[2020-11-25 19:55:15.328+0800] [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer [220]- Tomcat started on port(s): 8081 (http) with context path ''
+[2020-11-25 19:55:15.350+0800] [main] INFO  c.example.library.LibraryApplication [61]- Started LibraryApplication in 4.314 seconds (JVM running for 5.039)
+[2020-11-25 19:55:16.406+0800] [scheduling-1] INFO  com.zaxxer.hikari.HikariDataSource [110]- HikariPool-1 - Starting...
+[2020-11-25 19:55:16.633+0800] [scheduling-1] INFO  com.zaxxer.hikari.HikariDataSource [123]- HikariPool-1 - Start completed.
+[2020-11-25 19:55:16.655+0800] [scheduling-1] INFO  c.e.library.service.ScheduledTask [29]- 2020-11-25T19:55:16.655清理僵尸账户0个
+[2020-11-25 19:57:08.318+0800] [http-nio-8081-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] [173]- Initializing Spring DispatcherServlet 'dispatcherServlet'
+[2020-11-25 19:57:08.318+0800] [http-nio-8081-exec-1] INFO  o.s.web.servlet.DispatcherServlet [525]- Initializing Servlet 'dispatcherServlet'
+[2020-11-25 19:57:08.320+0800] [http-nio-8081-exec-1] INFO  o.s.web.servlet.DispatcherServlet [547]- Completed initialization in 1 ms
+[2020-11-25 19:57:08.375+0800] [http-nio-8081-exec-1] ERROR o.a.c.c.C.[.[.[.[dispatcherServlet] [175]- Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is java.lang.RuntimeException: Value for token cannot be null] with root cause
+java.lang.RuntimeException: Value for token cannot be null
+	at com.example.library.beans.UserExample$GeneratedCriteria.addCriterion(UserExample.java:153)
+	at com.example.library.beans.UserExample$GeneratedCriteria.andTokenEqualTo(UserExample.java:366)
+	at com.example.library.beans.UserExample$Criteria.andTokenEqualTo(UserExample.java:1175)
+	at com.example.library.service.UserService.checkCode(UserService.java:78)
+	at com.example.library.controller.UserController.checkCode(UserController.java:122)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:197)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:141)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:106)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:893)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:807)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1061)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:961)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:909)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:652)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:733)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:143)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:374)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1590)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+[2020-11-25 20:00:02.294+0800] [main] INFO  c.example.library.LibraryApplication [55]- Starting LibraryApplication using Java 1.8.0_241 on DESKTOP-F8LLN01 with PID 3872 (E:\codes\eclipse_new\library\target\classes started by 愈 in E:\codes\eclipse_new\library)
+[2020-11-25 20:00:02.307+0800] [main] INFO  c.example.library.LibraryApplication [660]- No active profile set, falling back to default profiles: default
+[2020-11-25 20:00:05.155+0800] [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer [108]- Tomcat initialized with port(s): 8081 (http)
+[2020-11-25 20:00:05.180+0800] [main] INFO  o.a.coyote.http11.Http11NioProtocol [173]- Initializing ProtocolHandler ["http-nio-8081"]
+[2020-11-25 20:00:05.181+0800] [main] INFO  o.a.catalina.core.StandardService [173]- Starting service [Tomcat]
+[2020-11-25 20:00:05.182+0800] [main] INFO  o.a.catalina.core.StandardEngine [173]- Starting Servlet engine: [Apache Tomcat/9.0.39]
+[2020-11-25 20:00:05.322+0800] [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] [173]- Initializing Spring embedded WebApplicationContext
+[2020-11-25 20:00:05.323+0800] [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext [289]- Root WebApplicationContext: initialization completed in 2728 ms
+[2020-11-25 20:00:06.625+0800] [main] INFO  o.s.s.c.ThreadPoolTaskExecutor [181]- Initializing ExecutorService 'applicationTaskExecutor'
+[2020-11-25 20:00:07.183+0800] [main] INFO  o.s.s.c.ThreadPoolTaskScheduler [181]- Initializing ExecutorService 'taskScheduler'
+[2020-11-25 20:00:07.272+0800] [main] INFO  o.a.coyote.http11.Http11NioProtocol [173]- Starting ProtocolHandler ["http-nio-8081"]
+[2020-11-25 20:00:07.331+0800] [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer [220]- Tomcat started on port(s): 8081 (http) with context path ''
+[2020-11-25 20:00:07.363+0800] [main] INFO  c.example.library.LibraryApplication [61]- Started LibraryApplication in 6.163 seconds (JVM running for 7.629)
+[2020-11-25 20:00:08.457+0800] [scheduling-1] INFO  com.zaxxer.hikari.HikariDataSource [110]- HikariPool-1 - Starting...
+[2020-11-25 20:00:08.789+0800] [scheduling-1] INFO  com.zaxxer.hikari.HikariDataSource [123]- HikariPool-1 - Start completed.
+[2020-11-25 20:00:08.826+0800] [scheduling-1] INFO  c.e.library.service.ScheduledTask [29]- 2020-11-25T20:00:08.826清理僵尸账户0个
+[2020-11-25 20:00:12.407+0800] [http-nio-8081-exec-2] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] [173]- Initializing Spring DispatcherServlet 'dispatcherServlet'
+[2020-11-25 20:00:12.408+0800] [http-nio-8081-exec-2] INFO  o.s.web.servlet.DispatcherServlet [525]- Initializing Servlet 'dispatcherServlet'
+[2020-11-25 20:00:12.412+0800] [http-nio-8081-exec-2] INFO  o.s.web.servlet.DispatcherServlet [547]- Completed initialization in 4 ms
+[2020-11-25 21:27:38.741+0800] [main] INFO  c.example.library.LibraryApplication [55]- Starting LibraryApplication using Java 1.8.0_241 on DESKTOP-F8LLN01 with PID 13784 (E:\codes\eclipse_new\library\target\classes started by 愈 in E:\codes\eclipse_new\library)
+[2020-11-25 21:27:38.745+0800] [main] INFO  c.example.library.LibraryApplication [660]- No active profile set, falling back to default profiles: default
+[2020-11-25 21:27:40.936+0800] [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer [108]- Tomcat initialized with port(s): 8081 (http)
+[2020-11-25 21:27:40.947+0800] [main] INFO  o.a.coyote.http11.Http11NioProtocol [173]- Initializing ProtocolHandler ["http-nio-8081"]
+[2020-11-25 21:27:40.947+0800] [main] INFO  o.a.catalina.core.StandardService [173]- Starting service [Tomcat]
+[2020-11-25 21:27:40.948+0800] [main] INFO  o.a.catalina.core.StandardEngine [173]- Starting Servlet engine: [Apache Tomcat/9.0.39]
+[2020-11-25 21:27:41.025+0800] [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] [173]- Initializing Spring embedded WebApplicationContext
+[2020-11-25 21:27:41.026+0800] [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext [289]- Root WebApplicationContext: initialization completed in 2179 ms
+[2020-11-25 21:27:42.018+0800] [main] INFO  o.s.s.c.ThreadPoolTaskExecutor [181]- Initializing ExecutorService 'applicationTaskExecutor'
+[2020-11-25 21:27:42.302+0800] [main] INFO  o.s.s.c.ThreadPoolTaskScheduler [181]- Initializing ExecutorService 'taskScheduler'
+[2020-11-25 21:27:42.337+0800] [main] INFO  o.a.coyote.http11.Http11NioProtocol [173]- Starting ProtocolHandler ["http-nio-8081"]
+[2020-11-25 21:27:42.365+0800] [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer [220]- Tomcat started on port(s): 8081 (http) with context path ''
+[2020-11-25 21:27:42.381+0800] [main] INFO  c.example.library.LibraryApplication [61]- Started LibraryApplication in 4.298 seconds (JVM running for 4.937)
+[2020-11-25 21:27:43.437+0800] [scheduling-1] INFO  com.zaxxer.hikari.HikariDataSource [110]- HikariPool-1 - Starting...
+[2020-11-25 21:27:43.683+0800] [scheduling-1] INFO  com.zaxxer.hikari.HikariDataSource [123]- HikariPool-1 - Start completed.
+[2020-11-25 21:27:43.705+0800] [scheduling-1] INFO  c.e.library.service.ScheduledTask [29]- 2020-11-25T21:27:43.705清理僵尸账户0个
+[2020-11-25 21:30:40.828+0800] [main] INFO  c.example.library.LibraryApplication [55]- Starting LibraryApplication using Java 1.8.0_241 on DESKTOP-F8LLN01 with PID 2576 (E:\codes\eclipse_new\library\target\classes started by 愈 in E:\codes\eclipse_new\library)
+[2020-11-25 21:30:40.832+0800] [main] INFO  c.example.library.LibraryApplication [660]- No active profile set, falling back to default profiles: default
+[2020-11-25 21:30:42.683+0800] [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer [108]- Tomcat initialized with port(s): 8081 (http)
+[2020-11-25 21:30:42.694+0800] [main] INFO  o.a.coyote.http11.Http11NioProtocol [173]- Initializing ProtocolHandler ["http-nio-8081"]
+[2020-11-25 21:30:42.695+0800] [main] INFO  o.a.catalina.core.StandardService [173]- Starting service [Tomcat]
+[2020-11-25 21:30:42.696+0800] [main] INFO  o.a.catalina.core.StandardEngine [173]- Starting Servlet engine: [Apache Tomcat/9.0.39]
+[2020-11-25 21:30:42.779+0800] [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] [173]- Initializing Spring embedded WebApplicationContext
+[2020-11-25 21:30:42.780+0800] [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext [289]- Root WebApplicationContext: initialization completed in 1847 ms
+[2020-11-25 21:30:43.834+0800] [main] INFO  o.s.s.c.ThreadPoolTaskExecutor [181]- Initializing ExecutorService 'applicationTaskExecutor'
+[2020-11-25 21:30:44.098+0800] [main] INFO  o.s.s.c.ThreadPoolTaskScheduler [181]- Initializing ExecutorService 'taskScheduler'
+[2020-11-25 21:30:44.138+0800] [main] INFO  o.a.coyote.http11.Http11NioProtocol [173]- Starting ProtocolHandler ["http-nio-8081"]
+[2020-11-25 21:30:44.168+0800] [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer [220]- Tomcat started on port(s): 8081 (http) with context path ''
+[2020-11-25 21:30:44.190+0800] [main] INFO  c.example.library.LibraryApplication [61]- Started LibraryApplication in 4.043 seconds (JVM running for 4.6)
+[2020-11-25 21:30:45.250+0800] [scheduling-1] INFO  com.zaxxer.hikari.HikariDataSource [110]- HikariPool-1 - Starting...
+[2020-11-25 21:30:45.488+0800] [scheduling-1] INFO  com.zaxxer.hikari.HikariDataSource [123]- HikariPool-1 - Start completed.
+[2020-11-25 21:30:45.510+0800] [scheduling-1] INFO  c.e.library.service.ScheduledTask [29]- 2020-11-25T21:30:45.510清理僵尸账户0个
+[2020-11-25 21:42:46.367+0800] [main] INFO  c.example.library.LibraryApplication [55]- Starting LibraryApplication using Java 1.8.0_241 on DESKTOP-F8LLN01 with PID 11124 (E:\codes\eclipse_new\library\target\classes started by 愈 in E:\codes\eclipse_new\library)
+[2020-11-25 21:42:46.371+0800] [main] INFO  c.example.library.LibraryApplication [660]- No active profile set, falling back to default profiles: default
+[2020-11-25 21:42:48.220+0800] [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer [108]- Tomcat initialized with port(s): 8081 (http)
+[2020-11-25 21:42:48.242+0800] [main] INFO  o.a.coyote.http11.Http11NioProtocol [173]- Initializing ProtocolHandler ["http-nio-8081"]
+[2020-11-25 21:42:48.243+0800] [main] INFO  o.a.catalina.core.StandardService [173]- Starting service [Tomcat]
+[2020-11-25 21:42:48.244+0800] [main] INFO  o.a.catalina.core.StandardEngine [173]- Starting Servlet engine: [Apache Tomcat/9.0.39]
+[2020-11-25 21:42:48.326+0800] [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] [173]- Initializing Spring embedded WebApplicationContext
+[2020-11-25 21:42:48.326+0800] [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext [289]- Root WebApplicationContext: initialization completed in 1848 ms
+[2020-11-25 21:42:49.390+0800] [main] INFO  o.s.s.c.ThreadPoolTaskExecutor [181]- Initializing ExecutorService 'applicationTaskExecutor'
+[2020-11-25 21:42:49.681+0800] [main] INFO  o.s.s.c.ThreadPoolTaskScheduler [181]- Initializing ExecutorService 'taskScheduler'
+[2020-11-25 21:42:49.715+0800] [main] INFO  o.a.coyote.http11.Http11NioProtocol [173]- Starting ProtocolHandler ["http-nio-8081"]
+[2020-11-25 21:42:49.743+0800] [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer [220]- Tomcat started on port(s): 8081 (http) with context path ''
+[2020-11-25 21:42:49.758+0800] [main] INFO  c.example.library.LibraryApplication [61]- Started LibraryApplication in 4.059 seconds (JVM running for 4.626)
+[2020-11-25 21:42:50.812+0800] [scheduling-1] INFO  com.zaxxer.hikari.HikariDataSource [110]- HikariPool-1 - Starting...
+[2020-11-25 21:42:51.050+0800] [scheduling-1] INFO  com.zaxxer.hikari.HikariDataSource [123]- HikariPool-1 - Start completed.
+[2020-11-25 21:42:51.070+0800] [scheduling-1] INFO  c.e.library.service.ScheduledTask [29]- 2020-11-25T21:42:51.070清理僵尸账户0个
+[2020-11-25 21:43:34.924+0800] [main] INFO  c.example.library.LibraryApplication [55]- Starting LibraryApplication using Java 1.8.0_241 on DESKTOP-F8LLN01 with PID 13648 (E:\codes\eclipse_new\library\target\classes started by 愈 in E:\codes\eclipse_new\library)
+[2020-11-25 21:43:34.928+0800] [main] INFO  c.example.library.LibraryApplication [660]- No active profile set, falling back to default profiles: default
+[2020-11-25 21:43:36.772+0800] [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer [108]- Tomcat initialized with port(s): 8081 (http)
+[2020-11-25 21:43:36.784+0800] [main] INFO  o.a.coyote.http11.Http11NioProtocol [173]- Initializing ProtocolHandler ["http-nio-8081"]
+[2020-11-25 21:43:36.784+0800] [main] INFO  o.a.catalina.core.StandardService [173]- Starting service [Tomcat]
+[2020-11-25 21:43:36.785+0800] [main] INFO  o.a.catalina.core.StandardEngine [173]- Starting Servlet engine: [Apache Tomcat/9.0.39]
+[2020-11-25 21:43:36.872+0800] [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] [173]- Initializing Spring embedded WebApplicationContext
+[2020-11-25 21:43:36.873+0800] [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext [289]- Root WebApplicationContext: initialization completed in 1856 ms
+[2020-11-25 21:43:37.990+0800] [main] INFO  o.s.s.c.ThreadPoolTaskExecutor [181]- Initializing ExecutorService 'applicationTaskExecutor'
+[2020-11-25 21:43:38.290+0800] [main] INFO  o.s.s.c.ThreadPoolTaskScheduler [181]- Initializing ExecutorService 'taskScheduler'
+[2020-11-25 21:43:38.330+0800] [main] INFO  o.a.coyote.http11.Http11NioProtocol [173]- Starting ProtocolHandler ["http-nio-8081"]
+[2020-11-25 21:43:38.365+0800] [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer [220]- Tomcat started on port(s): 8081 (http) with context path ''
+[2020-11-25 21:43:38.384+0800] [main] INFO  c.example.library.LibraryApplication [61]- Started LibraryApplication in 4.113 seconds (JVM running for 4.768)
+[2020-11-25 21:43:39.443+0800] [scheduling-1] INFO  com.zaxxer.hikari.HikariDataSource [110]- HikariPool-1 - Starting...
+[2020-11-25 21:43:39.673+0800] [scheduling-1] INFO  com.zaxxer.hikari.HikariDataSource [123]- HikariPool-1 - Start completed.
+[2020-11-25 21:43:39.695+0800] [scheduling-1] INFO  c.e.library.service.ScheduledTask [29]- 2020-11-25T21:43:39.695清理僵尸账户0个
+[2020-11-25 21:44:05.131+0800] [main] INFO  c.example.library.LibraryApplication [55]- Starting LibraryApplication using Java 1.8.0_241 on DESKTOP-F8LLN01 with PID 2824 (E:\codes\eclipse_new\library\target\classes started by 愈 in E:\codes\eclipse_new\library)
+[2020-11-25 21:44:05.136+0800] [main] INFO  c.example.library.LibraryApplication [660]- No active profile set, falling back to default profiles: default
+[2020-11-25 21:44:07.312+0800] [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer [108]- Tomcat initialized with port(s): 8081 (http)
+[2020-11-25 21:44:07.333+0800] [main] INFO  o.a.coyote.http11.Http11NioProtocol [173]- Initializing ProtocolHandler ["http-nio-8081"]
+[2020-11-25 21:44:07.334+0800] [main] INFO  o.a.catalina.core.StandardService [173]- Starting service [Tomcat]
+[2020-11-25 21:44:07.335+0800] [main] INFO  o.a.catalina.core.StandardEngine [173]- Starting Servlet engine: [Apache Tomcat/9.0.39]
+[2020-11-25 21:44:07.448+0800] [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] [173]- Initializing Spring embedded WebApplicationContext
+[2020-11-25 21:44:07.449+0800] [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext [289]- Root WebApplicationContext: initialization completed in 2197 ms
+[2020-11-25 21:44:08.586+0800] [main] INFO  o.s.s.c.ThreadPoolTaskExecutor [181]- Initializing ExecutorService 'applicationTaskExecutor'
+[2020-11-25 21:44:08.871+0800] [main] INFO  o.s.s.c.ThreadPoolTaskScheduler [181]- Initializing ExecutorService 'taskScheduler'
+[2020-11-25 21:44:08.910+0800] [main] INFO  o.a.coyote.http11.Http11NioProtocol [173]- Starting ProtocolHandler ["http-nio-8081"]
+[2020-11-25 21:44:08.942+0800] [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer [220]- Tomcat started on port(s): 8081 (http) with context path ''
+[2020-11-25 21:44:08.963+0800] [main] INFO  c.example.library.LibraryApplication [61]- Started LibraryApplication in 4.494 seconds (JVM running for 5.073)
+[2020-11-25 21:44:10.021+0800] [scheduling-1] INFO  com.zaxxer.hikari.HikariDataSource [110]- HikariPool-1 - Starting...
+[2020-11-25 21:44:10.256+0800] [scheduling-1] INFO  com.zaxxer.hikari.HikariDataSource [123]- HikariPool-1 - Start completed.
+[2020-11-25 21:44:10.278+0800] [scheduling-1] INFO  c.e.library.service.ScheduledTask [29]- 2020-11-25T21:44:10.278清理僵尸账户0个
+[2020-11-25 21:44:23.197+0800] [main] INFO  c.example.library.LibraryApplication [55]- Starting LibraryApplication using Java 1.8.0_241 on DESKTOP-F8LLN01 with PID 6020 (E:\codes\eclipse_new\library\target\classes started by 愈 in E:\codes\eclipse_new\library)
+[2020-11-25 21:44:23.201+0800] [main] INFO  c.example.library.LibraryApplication [660]- No active profile set, falling back to default profiles: default
+[2020-11-25 21:44:25.073+0800] [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer [108]- Tomcat initialized with port(s): 8081 (http)
+[2020-11-25 21:44:25.084+0800] [main] INFO  o.a.coyote.http11.Http11NioProtocol [173]- Initializing ProtocolHandler ["http-nio-8081"]
+[2020-11-25 21:44:25.084+0800] [main] INFO  o.a.catalina.core.StandardService [173]- Starting service [Tomcat]
+[2020-11-25 21:44:25.085+0800] [main] INFO  o.a.catalina.core.StandardEngine [173]- Starting Servlet engine: [Apache Tomcat/9.0.39]
+[2020-11-25 21:44:25.161+0800] [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] [173]- Initializing Spring embedded WebApplicationContext
+[2020-11-25 21:44:25.161+0800] [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext [289]- Root WebApplicationContext: initialization completed in 1864 ms
+[2020-11-25 21:44:26.154+0800] [main] INFO  o.s.s.c.ThreadPoolTaskExecutor [181]- Initializing ExecutorService 'applicationTaskExecutor'
+[2020-11-25 21:44:26.601+0800] [main] INFO  o.s.s.c.ThreadPoolTaskScheduler [181]- Initializing ExecutorService 'taskScheduler'
+[2020-11-25 21:44:26.637+0800] [main] INFO  o.a.coyote.http11.Http11NioProtocol [173]- Starting ProtocolHandler ["http-nio-8081"]
+[2020-11-25 21:44:26.664+0800] [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer [220]- Tomcat started on port(s): 8081 (http) with context path ''
+[2020-11-25 21:44:26.679+0800] [main] INFO  c.example.library.LibraryApplication [61]- Started LibraryApplication in 4.124 seconds (JVM running for 4.708)
+[2020-11-25 21:44:27.729+0800] [scheduling-1] INFO  com.zaxxer.hikari.HikariDataSource [110]- HikariPool-1 - Starting...
+[2020-11-25 21:44:27.965+0800] [scheduling-1] INFO  com.zaxxer.hikari.HikariDataSource [123]- HikariPool-1 - Start completed.
+[2020-11-25 21:44:27.985+0800] [scheduling-1] INFO  c.e.library.service.ScheduledTask [29]- 2020-11-25T21:44:27.984清理僵尸账户0个
+[2020-11-25 21:57:53.770+0800] [main] INFO  c.example.library.LibraryApplication [55]- Starting LibraryApplication using Java 1.8.0_241 on DESKTOP-F8LLN01 with PID 2224 (E:\codes\eclipse_new\library\target\classes started by 愈 in E:\codes\eclipse_new\library)
+[2020-11-25 21:57:53.776+0800] [main] INFO  c.example.library.LibraryApplication [660]- No active profile set, falling back to default profiles: default
+[2020-11-25 21:57:56.988+0800] [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer [108]- Tomcat initialized with port(s): 8081 (http)
+[2020-11-25 21:57:57.004+0800] [main] INFO  o.a.coyote.http11.Http11NioProtocol [173]- Initializing ProtocolHandler ["http-nio-8081"]
+[2020-11-25 21:57:57.005+0800] [main] INFO  o.a.catalina.core.StandardService [173]- Starting service [Tomcat]
+[2020-11-25 21:57:57.006+0800] [main] INFO  o.a.catalina.core.StandardEngine [173]- Starting Servlet engine: [Apache Tomcat/9.0.39]
+[2020-11-25 21:57:57.119+0800] [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] [173]- Initializing Spring embedded WebApplicationContext
+[2020-11-25 21:57:57.120+0800] [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext [289]- Root WebApplicationContext: initialization completed in 3148 ms
+[2020-11-25 21:57:58.420+0800] [main] INFO  o.s.s.c.ThreadPoolTaskExecutor [181]- Initializing ExecutorService 'applicationTaskExecutor'
+[2020-11-25 21:57:58.882+0800] [main] INFO  o.s.s.c.ThreadPoolTaskScheduler [181]- Initializing ExecutorService 'taskScheduler'
+[2020-11-25 21:57:58.953+0800] [main] INFO  o.a.coyote.http11.Http11NioProtocol [173]- Starting ProtocolHandler ["http-nio-8081"]
+[2020-11-25 21:57:59.006+0800] [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer [220]- Tomcat started on port(s): 8081 (http) with context path ''
+[2020-11-25 21:57:59.036+0800] [main] INFO  c.example.library.LibraryApplication [61]- Started LibraryApplication in 6.376 seconds (JVM running for 6.982)
+[2020-11-25 21:58:00.128+0800] [scheduling-1] INFO  com.zaxxer.hikari.HikariDataSource [110]- HikariPool-1 - Starting...
+[2020-11-25 21:58:00.610+0800] [scheduling-1] INFO  com.zaxxer.hikari.HikariDataSource [123]- HikariPool-1 - Start completed.
+[2020-11-25 21:58:00.647+0800] [scheduling-1] INFO  c.e.library.service.ScheduledTask [29]- 2020-11-25T21:58:00.647清理僵尸账户0个
+[2020-11-25 21:58:43.611+0800] [http-nio-8081-exec-2] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] [173]- Initializing Spring DispatcherServlet 'dispatcherServlet'
+[2020-11-25 21:58:43.612+0800] [http-nio-8081-exec-2] INFO  o.s.web.servlet.DispatcherServlet [525]- Initializing Servlet 'dispatcherServlet'
+[2020-11-25 21:58:43.615+0800] [http-nio-8081-exec-2] INFO  o.s.web.servlet.DispatcherServlet [547]- Completed initialization in 3 ms
+[2020-11-25 21:59:10.084+0800] [http-nio-8081-exec-4] ERROR o.a.c.c.C.[.[.[.[dispatcherServlet] [175]- Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed; nested exception is java.lang.NullPointerException] with root cause
+java.lang.NullPointerException: null
+	at com.example.library.service.CountService.countBooks(CountService.java:36)
+	at com.example.library.controller.CountController.currentBooks(CountController.java:23)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.lang.reflect.Method.invoke(Method.java:498)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:197)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:141)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:106)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:893)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:807)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1061)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:961)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006)
+	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:898)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:626)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:733)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:143)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:343)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:374)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:868)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1590)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Thread.java:748)
+[2020-11-25 22:00:33.425+0800] [main] INFO  c.example.library.LibraryApplication [55]- Starting LibraryApplication using Java 1.8.0_241 on DESKTOP-F8LLN01 with PID 3372 (E:\codes\eclipse_new\library\target\classes started by 愈 in E:\codes\eclipse_new\library)
+[2020-11-25 22:00:33.436+0800] [main] INFO  c.example.library.LibraryApplication [660]- No active profile set, falling back to default profiles: default
+[2020-11-25 22:00:36.549+0800] [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer [108]- Tomcat initialized with port(s): 8081 (http)
+[2020-11-25 22:00:36.594+0800] [main] INFO  o.a.coyote.http11.Http11NioProtocol [173]- Initializing ProtocolHandler ["http-nio-8081"]
+[2020-11-25 22:00:36.596+0800] [main] INFO  o.a.catalina.core.StandardService [173]- Starting service [Tomcat]
+[2020-11-25 22:00:36.596+0800] [main] INFO  o.a.catalina.core.StandardEngine [173]- Starting Servlet engine: [Apache Tomcat/9.0.39]
+[2020-11-25 22:00:36.745+0800] [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] [173]- Initializing Spring embedded WebApplicationContext
+[2020-11-25 22:00:36.746+0800] [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext [289]- Root WebApplicationContext: initialization completed in 3147 ms
+[2020-11-25 22:00:38.062+0800] [main] INFO  o.s.s.c.ThreadPoolTaskExecutor [181]- Initializing ExecutorService 'applicationTaskExecutor'
+[2020-11-25 22:00:38.416+0800] [main] INFO  o.s.s.c.ThreadPoolTaskScheduler [181]- Initializing ExecutorService 'taskScheduler'
+[2020-11-25 22:00:38.468+0800] [main] INFO  o.a.coyote.http11.Http11NioProtocol [173]- Starting ProtocolHandler ["http-nio-8081"]
+[2020-11-25 22:00:38.532+0800] [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer [220]- Tomcat started on port(s): 8081 (http) with context path ''
+[2020-11-25 22:00:38.557+0800] [main] INFO  c.example.library.LibraryApplication [61]- Started LibraryApplication in 6.215 seconds (JVM running for 7.247)
+[2020-11-25 22:00:39.638+0800] [scheduling-1] INFO  com.zaxxer.hikari.HikariDataSource [110]- HikariPool-1 - Starting...
+[2020-11-25 22:00:40.004+0800] [scheduling-1] INFO  com.zaxxer.hikari.HikariDataSource [123]- HikariPool-1 - Start completed.
+[2020-11-25 22:00:40.041+0800] [scheduling-1] INFO  c.e.library.service.ScheduledTask [29]- 2020-11-25T22:00:40.041清理僵尸账户0个
+[2020-11-25 22:00:51.647+0800] [http-nio-8081-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] [173]- Initializing Spring DispatcherServlet 'dispatcherServlet'
+[2020-11-25 22:00:51.648+0800] [http-nio-8081-exec-1] INFO  o.s.web.servlet.DispatcherServlet [525]- Initializing Servlet 'dispatcherServlet'
+[2020-11-25 22:00:51.650+0800] [http-nio-8081-exec-1] INFO  o.s.web.servlet.DispatcherServlet [547]- Completed initialization in 2 ms
+[2020-11-25 22:03:45.569+0800] [main] INFO  c.example.library.LibraryApplication [55]- Starting LibraryApplication using Java 1.8.0_241 on DESKTOP-F8LLN01 with PID 11656 (E:\codes\eclipse_new\library\target\classes started by 愈 in E:\codes\eclipse_new\library)
+[2020-11-25 22:03:45.578+0800] [main] INFO  c.example.library.LibraryApplication [660]- No active profile set, falling back to default profiles: default
+[2020-11-25 22:03:48.456+0800] [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer [108]- Tomcat initialized with port(s): 8081 (http)
+[2020-11-25 22:03:48.474+0800] [main] INFO  o.a.coyote.http11.Http11NioProtocol [173]- Initializing ProtocolHandler ["http-nio-8081"]
+[2020-11-25 22:03:48.475+0800] [main] INFO  o.a.catalina.core.StandardService [173]- Starting service [Tomcat]
+[2020-11-25 22:03:48.475+0800] [main] INFO  o.a.catalina.core.StandardEngine [173]- Starting Servlet engine: [Apache Tomcat/9.0.39]
+[2020-11-25 22:03:48.629+0800] [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] [173]- Initializing Spring embedded WebApplicationContext
+[2020-11-25 22:03:48.629+0800] [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext [289]- Root WebApplicationContext: initialization completed in 2733 ms
+[2020-11-25 22:03:49.944+0800] [main] INFO  o.s.s.c.ThreadPoolTaskExecutor [181]- Initializing ExecutorService 'applicationTaskExecutor'
+[2020-11-25 22:03:50.297+0800] [main] INFO  o.s.s.c.ThreadPoolTaskScheduler [181]- Initializing ExecutorService 'taskScheduler'
+[2020-11-25 22:03:50.345+0800] [main] INFO  o.a.coyote.http11.Http11NioProtocol [173]- Starting ProtocolHandler ["http-nio-8081"]
+[2020-11-25 22:03:50.393+0800] [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer [220]- Tomcat started on port(s): 8081 (http) with context path ''
+[2020-11-25 22:03:50.431+0800] [main] INFO  c.example.library.LibraryApplication [61]- Started LibraryApplication in 5.926 seconds (JVM running for 6.802)
+[2020-11-25 22:03:51.721+0800] [scheduling-1] INFO  com.zaxxer.hikari.HikariDataSource [110]- HikariPool-1 - Starting...
+[2020-11-25 22:03:52.291+0800] [scheduling-1] INFO  com.zaxxer.hikari.HikariDataSource [123]- HikariPool-1 - Start completed.
+[2020-11-25 22:03:52.328+0800] [scheduling-1] INFO  c.e.library.service.ScheduledTask [29]- 2020-11-25T22:03:52.328清理僵尸账户0个
+[2020-11-25 22:03:54.043+0800] [http-nio-8081-exec-2] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] [173]- Initializing Spring DispatcherServlet 'dispatcherServlet'
+[2020-11-25 22:03:54.045+0800] [http-nio-8081-exec-2] INFO  o.s.web.servlet.DispatcherServlet [525]- Initializing Servlet 'dispatcherServlet'
+[2020-11-25 22:03:54.047+0800] [http-nio-8081-exec-2] INFO  o.s.web.servlet.DispatcherServlet [547]- Completed initialization in 2 ms
+[2020-11-25 22:04:16.770+0800] [main] INFO  c.example.library.LibraryApplication [55]- Starting LibraryApplication using Java 1.8.0_241 on DESKTOP-F8LLN01 with PID 2072 (E:\codes\eclipse_new\library\target\classes started by 愈 in E:\codes\eclipse_new\library)
+[2020-11-25 22:04:16.779+0800] [main] INFO  c.example.library.LibraryApplication [660]- No active profile set, falling back to default profiles: default
+[2020-11-25 22:04:19.739+0800] [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer [108]- Tomcat initialized with port(s): 8081 (http)
+[2020-11-25 22:04:19.759+0800] [main] INFO  o.a.coyote.http11.Http11NioProtocol [173]- Initializing ProtocolHandler ["http-nio-8081"]
+[2020-11-25 22:04:19.760+0800] [main] INFO  o.a.catalina.core.StandardService [173]- Starting service [Tomcat]
+[2020-11-25 22:04:19.761+0800] [main] INFO  o.a.catalina.core.StandardEngine [173]- Starting Servlet engine: [Apache Tomcat/9.0.39]
+[2020-11-25 22:04:19.916+0800] [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] [173]- Initializing Spring embedded WebApplicationContext
+[2020-11-25 22:04:19.916+0800] [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext [289]- Root WebApplicationContext: initialization completed in 2991 ms
+[2020-11-25 22:04:21.379+0800] [main] INFO  o.s.s.c.ThreadPoolTaskExecutor [181]- Initializing ExecutorService 'applicationTaskExecutor'
+[2020-11-25 22:04:21.737+0800] [main] INFO  o.s.s.c.ThreadPoolTaskScheduler [181]- Initializing ExecutorService 'taskScheduler'
+[2020-11-25 22:04:21.778+0800] [main] INFO  o.a.coyote.http11.Http11NioProtocol [173]- Starting ProtocolHandler ["http-nio-8081"]
+[2020-11-25 22:04:21.895+0800] [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer [220]- Tomcat started on port(s): 8081 (http) with context path ''
+[2020-11-25 22:04:21.939+0800] [main] INFO  c.example.library.LibraryApplication [61]- Started LibraryApplication in 6.345 seconds (JVM running for 7.376)
+[2020-11-25 22:04:23.042+0800] [scheduling-1] INFO  com.zaxxer.hikari.HikariDataSource [110]- HikariPool-1 - Starting...
+[2020-11-25 22:04:23.521+0800] [scheduling-1] INFO  com.zaxxer.hikari.HikariDataSource [123]- HikariPool-1 - Start completed.
+[2020-11-25 22:04:23.589+0800] [scheduling-1] INFO  c.e.library.service.ScheduledTask [29]- 2020-11-25T22:04:23.588清理僵尸账户0个
+[2020-11-25 22:04:25.069+0800] [http-nio-8081-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] [173]- Initializing Spring DispatcherServlet 'dispatcherServlet'
+[2020-11-25 22:04:25.070+0800] [http-nio-8081-exec-1] INFO  o.s.web.servlet.DispatcherServlet [525]- Initializing Servlet 'dispatcherServlet'
+[2020-11-25 22:04:25.071+0800] [http-nio-8081-exec-1] INFO  o.s.web.servlet.DispatcherServlet [547]- Completed initialization in 1 ms
+[2020-11-25 22:06:03.482+0800] [main] INFO  c.example.library.LibraryApplication [55]- Starting LibraryApplication using Java 1.8.0_241 on DESKTOP-F8LLN01 with PID 6780 (E:\codes\eclipse_new\library\target\classes started by 愈 in E:\codes\eclipse_new\library)
+[2020-11-25 22:06:03.489+0800] [main] INFO  c.example.library.LibraryApplication [660]- No active profile set, falling back to default profiles: default
+[2020-11-25 22:06:06.058+0800] [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer [108]- Tomcat initialized with port(s): 8081 (http)
+[2020-11-25 22:06:06.076+0800] [main] INFO  o.a.coyote.http11.Http11NioProtocol [173]- Initializing ProtocolHandler ["http-nio-8081"]
+[2020-11-25 22:06:06.077+0800] [main] INFO  o.a.catalina.core.StandardService [173]- Starting service [Tomcat]
+[2020-11-25 22:06:06.078+0800] [main] INFO  o.a.catalina.core.StandardEngine [173]- Starting Servlet engine: [Apache Tomcat/9.0.39]
+[2020-11-25 22:06:06.236+0800] [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] [173]- Initializing Spring embedded WebApplicationContext
+[2020-11-25 22:06:06.236+0800] [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext [289]- Root WebApplicationContext: initialization completed in 2611 ms
+[2020-11-25 22:06:07.885+0800] [main] INFO  o.s.s.c.ThreadPoolTaskExecutor [181]- Initializing ExecutorService 'applicationTaskExecutor'
+[2020-11-25 22:06:08.312+0800] [main] INFO  o.s.s.c.ThreadPoolTaskScheduler [181]- Initializing ExecutorService 'taskScheduler'
+[2020-11-25 22:06:08.358+0800] [main] INFO  o.a.coyote.http11.Http11NioProtocol [173]- Starting ProtocolHandler ["http-nio-8081"]
+[2020-11-25 22:06:08.438+0800] [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer [220]- Tomcat started on port(s): 8081 (http) with context path ''
+[2020-11-25 22:06:08.505+0800] [main] INFO  c.example.library.LibraryApplication [61]- Started LibraryApplication in 6.106 seconds (JVM running for 7.51)
+[2020-11-25 22:06:09.802+0800] [scheduling-1] INFO  com.zaxxer.hikari.HikariDataSource [110]- HikariPool-1 - Starting...
+[2020-11-25 22:06:10.313+0800] [scheduling-1] INFO  com.zaxxer.hikari.HikariDataSource [123]- HikariPool-1 - Start completed.
+[2020-11-25 22:06:10.387+0800] [scheduling-1] INFO  c.e.library.service.ScheduledTask [29]- 2020-11-25T22:06:10.387清理僵尸账户0个
+[2020-11-25 22:06:11.783+0800] [http-nio-8081-exec-2] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] [173]- Initializing Spring DispatcherServlet 'dispatcherServlet'
+[2020-11-25 22:06:11.784+0800] [http-nio-8081-exec-2] INFO  o.s.web.servlet.DispatcherServlet [525]- Initializing Servlet 'dispatcherServlet'
+[2020-11-25 22:06:11.786+0800] [http-nio-8081-exec-2] INFO  o.s.web.servlet.DispatcherServlet [547]- Completed initialization in 1 ms
+[2020-11-25 22:08:36.481+0800] [main] INFO  c.example.library.LibraryApplication [55]- Starting LibraryApplication using Java 1.8.0_241 on DESKTOP-F8LLN01 with PID 2684 (E:\codes\eclipse_new\library\target\classes started by 愈 in E:\codes\eclipse_new\library)
+[2020-11-25 22:08:36.490+0800] [main] INFO  c.example.library.LibraryApplication [660]- No active profile set, falling back to default profiles: default
+[2020-11-25 22:08:39.078+0800] [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer [108]- Tomcat initialized with port(s): 8081 (http)
+[2020-11-25 22:08:39.096+0800] [main] INFO  o.a.coyote.http11.Http11NioProtocol [173]- Initializing ProtocolHandler ["http-nio-8081"]
+[2020-11-25 22:08:39.097+0800] [main] INFO  o.a.catalina.core.StandardService [173]- Starting service [Tomcat]
+[2020-11-25 22:08:39.098+0800] [main] INFO  o.a.catalina.core.StandardEngine [173]- Starting Servlet engine: [Apache Tomcat/9.0.39]
+[2020-11-25 22:08:39.244+0800] [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] [173]- Initializing Spring embedded WebApplicationContext
+[2020-11-25 22:08:39.245+0800] [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext [289]- Root WebApplicationContext: initialization completed in 2592 ms
+[2020-11-25 22:08:40.725+0800] [main] INFO  o.s.s.c.ThreadPoolTaskExecutor [181]- Initializing ExecutorService 'applicationTaskExecutor'
+[2020-11-25 22:08:41.064+0800] [main] INFO  o.s.s.c.ThreadPoolTaskScheduler [181]- Initializing ExecutorService 'taskScheduler'
+[2020-11-25 22:08:41.103+0800] [main] INFO  o.a.coyote.http11.Http11NioProtocol [173]- Starting ProtocolHandler ["http-nio-8081"]
+[2020-11-25 22:08:41.195+0800] [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer [220]- Tomcat started on port(s): 8081 (http) with context path ''
+[2020-11-25 22:08:41.286+0800] [main] INFO  c.example.library.LibraryApplication [61]- Started LibraryApplication in 5.842 seconds (JVM running for 7.116)
+[2020-11-25 22:08:42.369+0800] [scheduling-1] INFO  com.zaxxer.hikari.HikariDataSource [110]- HikariPool-1 - Starting...
+[2020-11-25 22:08:42.727+0800] [scheduling-1] INFO  com.zaxxer.hikari.HikariDataSource [123]- HikariPool-1 - Start completed.
+[2020-11-25 22:08:42.810+0800] [scheduling-1] INFO  c.e.library.service.ScheduledTask [29]- 2020-11-25T22:08:42.810清理僵尸账户0个
+[2020-11-25 22:08:46.212+0800] [http-nio-8081-exec-2] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] [173]- Initializing Spring DispatcherServlet 'dispatcherServlet'
+[2020-11-25 22:08:46.212+0800] [http-nio-8081-exec-2] INFO  o.s.web.servlet.DispatcherServlet [525]- Initializing Servlet 'dispatcherServlet'
+[2020-11-25 22:08:46.215+0800] [http-nio-8081-exec-2] INFO  o.s.web.servlet.DispatcherServlet [547]- Completed initialization in 3 ms
+[2020-11-25 22:09:32.128+0800] [main] INFO  c.example.library.LibraryApplication [55]- Starting LibraryApplication using Java 1.8.0_241 on DESKTOP-F8LLN01 with PID 14240 (E:\codes\eclipse_new\library\target\classes started by 愈 in E:\codes\eclipse_new\library)
+[2020-11-25 22:09:32.136+0800] [main] INFO  c.example.library.LibraryApplication [660]- No active profile set, falling back to default profiles: default
+[2020-11-25 22:09:34.662+0800] [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer [108]- Tomcat initialized with port(s): 8081 (http)
+[2020-11-25 22:09:34.680+0800] [main] INFO  o.a.coyote.http11.Http11NioProtocol [173]- Initializing ProtocolHandler ["http-nio-8081"]
+[2020-11-25 22:09:34.680+0800] [main] INFO  o.a.catalina.core.StandardService [173]- Starting service [Tomcat]
+[2020-11-25 22:09:34.681+0800] [main] INFO  o.a.catalina.core.StandardEngine [173]- Starting Servlet engine: [Apache Tomcat/9.0.39]
+[2020-11-25 22:09:34.841+0800] [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] [173]- Initializing Spring embedded WebApplicationContext
+[2020-11-25 22:09:34.841+0800] [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext [289]- Root WebApplicationContext: initialization completed in 2551 ms
+[2020-11-25 22:09:36.291+0800] [main] INFO  o.s.s.c.ThreadPoolTaskExecutor [181]- Initializing ExecutorService 'applicationTaskExecutor'
+[2020-11-25 22:09:36.773+0800] [main] INFO  o.s.s.c.ThreadPoolTaskScheduler [181]- Initializing ExecutorService 'taskScheduler'
+[2020-11-25 22:09:36.817+0800] [main] INFO  o.a.coyote.http11.Http11NioProtocol [173]- Starting ProtocolHandler ["http-nio-8081"]
+[2020-11-25 22:09:36.984+0800] [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer [220]- Tomcat started on port(s): 8081 (http) with context path ''
+[2020-11-25 22:09:37.056+0800] [main] INFO  c.example.library.LibraryApplication [61]- Started LibraryApplication in 6.037 seconds (JVM running for 7.042)
+[2020-11-25 22:09:38.132+0800] [scheduling-1] INFO  com.zaxxer.hikari.HikariDataSource [110]- HikariPool-1 - Starting...
+[2020-11-25 22:09:38.532+0800] [scheduling-1] INFO  com.zaxxer.hikari.HikariDataSource [123]- HikariPool-1 - Start completed.
+[2020-11-25 22:09:38.581+0800] [scheduling-1] INFO  c.e.library.service.ScheduledTask [29]- 2020-11-25T22:09:38.581清理僵尸账户0个
+[2020-11-25 22:09:44.641+0800] [http-nio-8081-exec-1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] [173]- Initializing Spring DispatcherServlet 'dispatcherServlet'
+[2020-11-25 22:09:44.641+0800] [http-nio-8081-exec-1] INFO  o.s.web.servlet.DispatcherServlet [525]- Initializing Servlet 'dispatcherServlet'
+[2020-11-25 22:09:44.644+0800] [http-nio-8081-exec-1] INFO  o.s.web.servlet.DispatcherServlet [547]- Completed initialization in 2 ms
